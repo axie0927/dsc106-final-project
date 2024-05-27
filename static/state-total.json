@@ -1,0 +1,4143 @@
+{
+    "1975": {
+        "Arizona": {
+            "violent_crimes": 6726.0
+        },
+        "California": {
+            "violent_crimes": 67951.0
+        },
+        "Colorado": {
+            "violent_crimes": 5571.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 12704.0
+        },
+        "Florida": {
+            "violent_crimes": 21778.0
+        },
+        "Georgia": {
+            "violent_crimes": 8033.0
+        },
+        "Hawaii": {
+            "violent_crimes": 1596.0
+        },
+        "Illinois": {
+            "violent_crimes": 37160.0
+        },
+        "Indiana": {
+            "violent_crimes": 4655.0
+        },
+        "Kansas": {
+            "violent_crimes": 1137.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 5993.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11386.0
+        },
+        "Maryland": {
+            "violent_crimes": 22459.0
+        },
+        "Michigan": {
+            "violent_crimes": 30387.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3326.0
+        },
+        "Missouri": {
+            "violent_crimes": 16635.0
+        },
+        "North Carolina": {
+            "violent_crimes": 2658.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2540.0
+        },
+        "New Jersey": {
+            "violent_crimes": 7136.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2383.0
+        },
+        "Nevada": {
+            "violent_crimes": 2594.0
+        },
+        "New York": {
+            "violent_crimes": 137489.0
+        },
+        "Ohio": {
+            "violent_crimes": 17961.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 4434.0
+        },
+        "Oregon": {
+            "violent_crimes": 4076.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 21299.0
+        },
+        "Tennessee": {
+            "violent_crimes": 8587.0
+        },
+        "Texas": {
+            "violent_crimes": 25851.0
+        },
+        "Utah": {
+            "violent_crimes": 1070.0
+        },
+        "Virginia": {
+            "violent_crimes": 1257.0
+        },
+        "Washington": {
+            "violent_crimes": 3971.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3204.0
+        }
+    },
+    "1976": {
+        "Arizona": {
+            "violent_crimes": 5631.0
+        },
+        "California": {
+            "violent_crimes": 71991.0
+        },
+        "Colorado": {
+            "violent_crimes": 4653.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 10399.0
+        },
+        "Florida": {
+            "violent_crimes": 20455.0
+        },
+        "Georgia": {
+            "violent_crimes": 7529.0
+        },
+        "Hawaii": {
+            "violent_crimes": 1696.0
+        },
+        "Illinois": {
+            "violent_crimes": 30640.0
+        },
+        "Indiana": {
+            "violent_crimes": 4144.0
+        },
+        "Kansas": {
+            "violent_crimes": 1114.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 4810.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 9888.0
+        },
+        "Maryland": {
+            "violent_crimes": 20790.0
+        },
+        "Michigan": {
+            "violent_crimes": 29699.0
+        },
+        "Minnesota": {
+            "violent_crimes": 2954.0
+        },
+        "Missouri": {
+            "violent_crimes": 15152.0
+        },
+        "North Carolina": {
+            "violent_crimes": 2426.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2008.0
+        },
+        "New Jersey": {
+            "violent_crimes": 6565.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2420.0
+        },
+        "Nevada": {
+            "violent_crimes": 2473.0
+        },
+        "New York": {
+            "violent_crimes": 139941.0
+        },
+        "Ohio": {
+            "violent_crimes": 15244.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 4107.0
+        },
+        "Oregon": {
+            "violent_crimes": 4304.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 17734.0
+        },
+        "Tennessee": {
+            "violent_crimes": 7611.0
+        },
+        "Texas": {
+            "violent_crimes": 23355.0
+        },
+        "Utah": {
+            "violent_crimes": 959.0
+        },
+        "Virginia": {
+            "violent_crimes": 1189.0
+        },
+        "Washington": {
+            "violent_crimes": 4128.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 2692.0
+        }
+    },
+    "1977": {
+        "Arizona": {
+            "violent_crimes": 6258.0
+        },
+        "California": {
+            "violent_crimes": 74459.0
+        },
+        "Colorado": {
+            "violent_crimes": 5617.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 9843.0
+        },
+        "Florida": {
+            "violent_crimes": 21058.0
+        },
+        "Georgia": {
+            "violent_crimes": 7595.0
+        },
+        "Hawaii": {
+            "violent_crimes": 1660.0
+        },
+        "Illinois": {
+            "violent_crimes": 28873.0
+        },
+        "Indiana": {
+            "violent_crimes": 3785.0
+        },
+        "Kansas": {
+            "violent_crimes": 1397.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 5947.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 9422.0
+        },
+        "Maryland": {
+            "violent_crimes": 22933.0
+        },
+        "Michigan": {
+            "violent_crimes": 24070.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3130.0
+        },
+        "Missouri": {
+            "violent_crimes": 15342.0
+        },
+        "North Carolina": {
+            "violent_crimes": 2816.0
+        },
+        "Nebraska": {
+            "violent_crimes": 1918.0
+        },
+        "New Jersey": {
+            "violent_crimes": 6175.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2390.0
+        },
+        "Nevada": {
+            "violent_crimes": 2729.0
+        },
+        "New York": {
+            "violent_crimes": 128961.0
+        },
+        "Ohio": {
+            "violent_crimes": 16098.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 4545.0
+        },
+        "Oregon": {
+            "violent_crimes": 3973.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 16619.0
+        },
+        "Tennessee": {
+            "violent_crimes": 8188.0
+        },
+        "Texas": {
+            "violent_crimes": 27728.0
+        },
+        "Utah": {
+            "violent_crimes": 1064.0
+        },
+        "Virginia": {
+            "violent_crimes": 1304.0
+        },
+        "Washington": {
+            "violent_crimes": 4156.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 2535.0
+        }
+    },
+    "1978": {
+        "Arizona": {
+            "violent_crimes": 7548.0
+        },
+        "California": {
+            "violent_crimes": 79604.0
+        },
+        "Colorado": {
+            "violent_crimes": 5708.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 9515.0
+        },
+        "Florida": {
+            "violent_crimes": 24207.0
+        },
+        "Georgia": {
+            "violent_crimes": 8845.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2044.0
+        },
+        "Illinois": {
+            "violent_crimes": 27686.0
+        },
+        "Indiana": {
+            "violent_crimes": 3733.0
+        },
+        "Kansas": {
+            "violent_crimes": 1231.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 7635.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 10035.0
+        },
+        "Maryland": {
+            "violent_crimes": 24364.0
+        },
+        "Michigan": {
+            "violent_crimes": 21602.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3098.0
+        },
+        "Missouri": {
+            "violent_crimes": 15124.0
+        },
+        "North Carolina": {
+            "violent_crimes": 3080.0
+        },
+        "Nebraska": {
+            "violent_crimes": 1856.0
+        },
+        "New Jersey": {
+            "violent_crimes": 6843.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2434.0
+        },
+        "Nevada": {
+            "violent_crimes": 2886.0
+        },
+        "New York": {
+            "violent_crimes": 129394.0
+        },
+        "Ohio": {
+            "violent_crimes": 16353.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 5767.0
+        },
+        "Oregon": {
+            "violent_crimes": 4017.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 17187.0
+        },
+        "Tennessee": {
+            "violent_crimes": 8565.0
+        },
+        "Texas": {
+            "violent_crimes": 30205.0
+        },
+        "Utah": {
+            "violent_crimes": 1062.0
+        },
+        "Virginia": {
+            "violent_crimes": 1382.0
+        },
+        "Washington": {
+            "violent_crimes": 4900.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 2438.0
+        }
+    },
+    "1979": {
+        "Arizona": {
+            "violent_crimes": 8587.0
+        },
+        "California": {
+            "violent_crimes": 89856.0
+        },
+        "Colorado": {
+            "violent_crimes": 6151.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 10553.0
+        },
+        "Florida": {
+            "violent_crimes": 27168.0
+        },
+        "Georgia": {
+            "violent_crimes": 10715.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2196.0
+        },
+        "Illinois": {
+            "violent_crimes": 27807.0
+        },
+        "Indiana": {
+            "violent_crimes": 4178.0
+        },
+        "Kansas": {
+            "violent_crimes": 1456.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8894.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11392.0
+        },
+        "Maryland": {
+            "violent_crimes": 26343.0
+        },
+        "Michigan": {
+            "violent_crimes": 21021.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3899.0
+        },
+        "Missouri": {
+            "violent_crimes": 16716.0
+        },
+        "North Carolina": {
+            "violent_crimes": 3289.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2017.0
+        },
+        "New Jersey": {
+            "violent_crimes": 9647.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2679.0
+        },
+        "Nevada": {
+            "violent_crimes": 3210.0
+        },
+        "New York": {
+            "violent_crimes": 140520.0
+        },
+        "Ohio": {
+            "violent_crimes": 17786.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 6138.0
+        },
+        "Oregon": {
+            "violent_crimes": 4558.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 19186.0
+        },
+        "Tennessee": {
+            "violent_crimes": 9036.0
+        },
+        "Texas": {
+            "violent_crimes": 37922.0
+        },
+        "Utah": {
+            "violent_crimes": 1119.0
+        },
+        "Virginia": {
+            "violent_crimes": 1412.0
+        },
+        "Washington": {
+            "violent_crimes": 4857.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3039.0
+        }
+    },
+    "1980": {
+        "Arizona": {
+            "violent_crimes": 10416.0
+        },
+        "California": {
+            "violent_crimes": 104487.0
+        },
+        "Colorado": {
+            "violent_crimes": 6798.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 12772.0
+        },
+        "Florida": {
+            "violent_crimes": 36190.0
+        },
+        "Georgia": {
+            "violent_crimes": 11075.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2456.0
+        },
+        "Illinois": {
+            "violent_crimes": 28658.0
+        },
+        "Indiana": {
+            "violent_crimes": 4453.0
+        },
+        "Kansas": {
+            "violent_crimes": 1823.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8172.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 12478.0
+        },
+        "Maryland": {
+            "violent_crimes": 28972.0
+        },
+        "Michigan": {
+            "violent_crimes": 23288.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3917.0
+        },
+        "Missouri": {
+            "violent_crimes": 17996.0
+        },
+        "North Carolina": {
+            "violent_crimes": 3543.0
+        },
+        "Nebraska": {
+            "violent_crimes": 1983.0
+        },
+        "New Jersey": {
+            "violent_crimes": 11270.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2810.0
+        },
+        "Nevada": {
+            "violent_crimes": 4421.0
+        },
+        "New York": {
+            "violent_crimes": 157811.0
+        },
+        "Ohio": {
+            "violent_crimes": 20526.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 6449.0
+        },
+        "Oregon": {
+            "violent_crimes": 4957.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 22419.0
+        },
+        "Tennessee": {
+            "violent_crimes": 10532.0
+        },
+        "Texas": {
+            "violent_crimes": 40478.0
+        },
+        "Utah": {
+            "violent_crimes": 1132.0
+        },
+        "Virginia": {
+            "violent_crimes": 1525.0
+        },
+        "Washington": {
+            "violent_crimes": 5201.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3310.0
+        }
+    },
+    "1981": {
+        "Arizona": {
+            "violent_crimes": 9870.0
+        },
+        "California": {
+            "violent_crimes": 104912.0
+        },
+        "Colorado": {
+            "violent_crimes": 6522.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 14468.0
+        },
+        "Florida": {
+            "violent_crimes": 37647.0
+        },
+        "Georgia": {
+            "violent_crimes": 10608.0
+        },
+        "Hawaii": {
+            "violent_crimes": 1965.0
+        },
+        "Illinois": {
+            "violent_crimes": 25609.0
+        },
+        "Indiana": {
+            "violent_crimes": 4539.0
+        },
+        "Kansas": {
+            "violent_crimes": 1729.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8121.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 14071.0
+        },
+        "Maryland": {
+            "violent_crimes": 31151.0
+        },
+        "Michigan": {
+            "violent_crimes": 23176.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3883.0
+        },
+        "Missouri": {
+            "violent_crimes": 18078.0
+        },
+        "North Carolina": {
+            "violent_crimes": 3885.0
+        },
+        "Nebraska": {
+            "violent_crimes": 1583.0
+        },
+        "New Jersey": {
+            "violent_crimes": 12320.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2985.0
+        },
+        "Nevada": {
+            "violent_crimes": 4648.0
+        },
+        "New York": {
+            "violent_crimes": 163658.0
+        },
+        "Ohio": {
+            "violent_crimes": 21584.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 6806.0
+        },
+        "Oregon": {
+            "violent_crimes": 6452.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 23599.0
+        },
+        "Tennessee": {
+            "violent_crimes": 10143.0
+        },
+        "Texas": {
+            "violent_crimes": 38374.0
+        },
+        "Utah": {
+            "violent_crimes": 1268.0
+        },
+        "Virginia": {
+            "violent_crimes": 1540.0
+        },
+        "Washington": {
+            "violent_crimes": 5414.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3424.0
+        }
+    },
+    "1982": {
+        "Arizona": {
+            "violent_crimes": 9061.0
+        },
+        "California": {
+            "violent_crimes": 103170.0
+        },
+        "Colorado": {
+            "violent_crimes": 6341.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 13397.0
+        },
+        "Florida": {
+            "violent_crimes": 36092.0
+        },
+        "Georgia": {
+            "violent_crimes": 10486.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2151.0
+        },
+        "Illinois": {
+            "violent_crimes": 26404.0
+        },
+        "Indiana": {
+            "violent_crimes": 4341.0
+        },
+        "Kansas": {
+            "violent_crimes": 1695.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8604.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 10970.0
+        },
+        "Maryland": {
+            "violent_crimes": 29994.0
+        },
+        "Michigan": {
+            "violent_crimes": 23746.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4247.0
+        },
+        "Missouri": {
+            "violent_crimes": 16798.0
+        },
+        "North Carolina": {
+            "violent_crimes": 4986.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2450.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10704.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2659.0
+        },
+        "Nevada": {
+            "violent_crimes": 4470.0
+        },
+        "New York": {
+            "violent_crimes": 151266.0
+        },
+        "Ohio": {
+            "violent_crimes": 17733.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 6990.0
+        },
+        "Oregon": {
+            "violent_crimes": 6484.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 22902.0
+        },
+        "Tennessee": {
+            "violent_crimes": 10857.0
+        },
+        "Texas": {
+            "violent_crimes": 47721.0
+        },
+        "Utah": {
+            "violent_crimes": 1279.0
+        },
+        "Virginia": {
+            "violent_crimes": 1612.0
+        },
+        "Washington": {
+            "violent_crimes": 5120.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3593.0
+        }
+    },
+    "1983": {
+        "Arizona": {
+            "violent_crimes": 8844.0
+        },
+        "California": {
+            "violent_crimes": 100405.0
+        },
+        "Colorado": {
+            "violent_crimes": 6085.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 11933.0
+        },
+        "Florida": {
+            "violent_crimes": 34517.0
+        },
+        "Georgia": {
+            "violent_crimes": 9326.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2136.0
+        },
+        "Illinois": {
+            "violent_crimes": 39776.0
+        },
+        "Indiana": {
+            "violent_crimes": 4139.0
+        },
+        "Kansas": {
+            "violent_crimes": 1385.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8048.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11365.0
+        },
+        "Maryland": {
+            "violent_crimes": 28410.0
+        },
+        "Michigan": {
+            "violent_crimes": 25527.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3487.0
+        },
+        "Missouri": {
+            "violent_crimes": 15913.0
+        },
+        "North Carolina": {
+            "violent_crimes": 5146.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2390.0
+        },
+        "New Jersey": {
+            "violent_crimes": 9327.0
+        },
+        "New Mexico": {
+            "violent_crimes": 2954.0
+        },
+        "Nevada": {
+            "violent_crimes": 3564.0
+        },
+        "New York": {
+            "violent_crimes": 139702.0
+        },
+        "Ohio": {
+            "violent_crimes": 15334.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 7089.0
+        },
+        "Oregon": {
+            "violent_crimes": 6879.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 22578.0
+        },
+        "Tennessee": {
+            "violent_crimes": 10853.0
+        },
+        "Texas": {
+            "violent_crimes": 44222.0
+        },
+        "Utah": {
+            "violent_crimes": 1163.0
+        },
+        "Virginia": {
+            "violent_crimes": 1381.0
+        },
+        "Washington": {
+            "violent_crimes": 4818.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3720.0
+        }
+    },
+    "1984": {
+        "Arizona": {
+            "violent_crimes": 10202.0
+        },
+        "California": {
+            "violent_crimes": 96815.0
+        },
+        "Colorado": {
+            "violent_crimes": 5922.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 10725.0
+        },
+        "Florida": {
+            "violent_crimes": 38447.0
+        },
+        "Georgia": {
+            "violent_crimes": 10525.0
+        },
+        "Hawaii": {
+            "violent_crimes": 1950.0
+        },
+        "Illinois": {
+            "violent_crimes": 60579.0
+        },
+        "Indiana": {
+            "violent_crimes": 4366.0
+        },
+        "Kansas": {
+            "violent_crimes": 1328.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8687.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 10557.0
+        },
+        "Maryland": {
+            "violent_crimes": 27932.0
+        },
+        "Michigan": {
+            "violent_crimes": 26567.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3883.0
+        },
+        "Missouri": {
+            "violent_crimes": 14896.0
+        },
+        "North Carolina": {
+            "violent_crimes": 5378.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2410.0
+        },
+        "New Jersey": {
+            "violent_crimes": 8580.0
+        },
+        "New Mexico": {
+            "violent_crimes": 3615.0
+        },
+        "Nevada": {
+            "violent_crimes": 3309.0
+        },
+        "New York": {
+            "violent_crimes": 139181.0
+        },
+        "Ohio": {
+            "violent_crimes": 15131.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 6878.0
+        },
+        "Oregon": {
+            "violent_crimes": 7408.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 20163.0
+        },
+        "Tennessee": {
+            "violent_crimes": 12262.0
+        },
+        "Texas": {
+            "violent_crimes": 44248.0
+        },
+        "Utah": {
+            "violent_crimes": 1088.0
+        },
+        "Virginia": {
+            "violent_crimes": 1486.0
+        },
+        "Washington": {
+            "violent_crimes": 5553.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 3456.0
+        }
+    },
+    "1985": {
+        "Arizona": {
+            "violent_crimes": 12355.0
+        },
+        "California": {
+            "violent_crimes": 99507.0
+        },
+        "Colorado": {
+            "violent_crimes": 6502.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 10171.0
+        },
+        "Florida": {
+            "violent_crimes": 41337.0
+        },
+        "Georgia": {
+            "violent_crimes": 11610.0
+        },
+        "Hawaii": {
+            "violent_crimes": 1801.0
+        },
+        "Illinois": {
+            "violent_crimes": 60011.0
+        },
+        "Indiana": {
+            "violent_crimes": 4622.0
+        },
+        "Kansas": {
+            "violent_crimes": 1672.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8222.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11887.0
+        },
+        "Maryland": {
+            "violent_crimes": 28973.0
+        },
+        "Michigan": {
+            "violent_crimes": 25904.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5135.0
+        },
+        "Missouri": {
+            "violent_crimes": 16654.0
+        },
+        "North Carolina": {
+            "violent_crimes": 5610.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2498.0
+        },
+        "New Jersey": {
+            "violent_crimes": 9736.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4105.0
+        },
+        "Nevada": {
+            "violent_crimes": 3624.0
+        },
+        "New York": {
+            "violent_crimes": 142964.0
+        },
+        "Ohio": {
+            "violent_crimes": 14247.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 7230.0
+        },
+        "Oregon": {
+            "violent_crimes": 8634.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 20562.0
+        },
+        "Tennessee": {
+            "violent_crimes": 13114.0
+        },
+        "Texas": {
+            "violent_crimes": 49705.0
+        },
+        "Utah": {
+            "violent_crimes": 1083.0
+        },
+        "Virginia": {
+            "violent_crimes": 1439.0
+        },
+        "Washington": {
+            "violent_crimes": 6523.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 4056.0
+        }
+    },
+    "1986": {
+        "Arizona": {
+            "violent_crimes": 14090.0
+        },
+        "California": {
+            "violent_crimes": 119413.0
+        },
+        "Colorado": {
+            "violent_crimes": 7518.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 9422.0
+        },
+        "Florida": {
+            "violent_crimes": 46176.0
+        },
+        "Georgia": {
+            "violent_crimes": 13162.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2076.0
+        },
+        "Illinois": {
+            "violent_crimes": 68909.0
+        },
+        "Indiana": {
+            "violent_crimes": 4307.0
+        },
+        "Kansas": {
+            "violent_crimes": 1531.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 9165.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 12395.0
+        },
+        "Maryland": {
+            "violent_crimes": 28945.0
+        },
+        "Michigan": {
+            "violent_crimes": 27277.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5959.0
+        },
+        "Missouri": {
+            "violent_crimes": 19562.0
+        },
+        "North Carolina": {
+            "violent_crimes": 6650.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2726.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10160.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4292.0
+        },
+        "Nevada": {
+            "violent_crimes": 3947.0
+        },
+        "New York": {
+            "violent_crimes": 151579.0
+        },
+        "Ohio": {
+            "violent_crimes": 15603.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 7534.0
+        },
+        "Oregon": {
+            "violent_crimes": 8804.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 21914.0
+        },
+        "Tennessee": {
+            "violent_crimes": 14695.0
+        },
+        "Texas": {
+            "violent_crimes": 62809.0
+        },
+        "Utah": {
+            "violent_crimes": 1246.0
+        },
+        "Virginia": {
+            "violent_crimes": 1700.0
+        },
+        "Washington": {
+            "violent_crimes": 6790.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6135.0
+        }
+    },
+    "1987": {
+        "Arizona": {
+            "violent_crimes": 12997.0
+        },
+        "California": {
+            "violent_crimes": 117300.0
+        },
+        "Colorado": {
+            "violent_crimes": 6541.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 10016.0
+        },
+        "Florida": {
+            "violent_crimes": 48775.0
+        },
+        "Georgia": {
+            "violent_crimes": 12893.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2258.0
+        },
+        "Illinois": {
+            "violent_crimes": 68368.0
+        },
+        "Indiana": {
+            "violent_crimes": 4543.0
+        },
+        "Kansas": {
+            "violent_crimes": 1566.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 7678.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11954.0
+        },
+        "Maryland": {
+            "violent_crimes": 22792.0
+        },
+        "Michigan": {
+            "violent_crimes": 27778.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5538.0
+        },
+        "Missouri": {
+            "violent_crimes": 18201.0
+        },
+        "North Carolina": {
+            "violent_crimes": 7116.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2536.0
+        },
+        "New Jersey": {
+            "violent_crimes": 8926.0
+        },
+        "New Mexico": {
+            "violent_crimes": 3845.0
+        },
+        "Nevada": {
+            "violent_crimes": 3884.0
+        },
+        "New York": {
+            "violent_crimes": 156551.0
+        },
+        "Ohio": {
+            "violent_crimes": 15512.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 6927.0
+        },
+        "Oregon": {
+            "violent_crimes": 8763.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 21716.0
+        },
+        "Tennessee": {
+            "violent_crimes": 14086.0
+        },
+        "Texas": {
+            "violent_crimes": 60897.0
+        },
+        "Utah": {
+            "violent_crimes": 1090.0
+        },
+        "Virginia": {
+            "violent_crimes": 1683.0
+        },
+        "Washington": {
+            "violent_crimes": 7096.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6008.0
+        }
+    },
+    "1988": {
+        "Arizona": {
+            "violent_crimes": 13400.0
+        },
+        "California": {
+            "violent_crimes": 121375.0
+        },
+        "Colorado": {
+            "violent_crimes": 6259.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 11913.0
+        },
+        "Florida": {
+            "violent_crimes": 32984.0
+        },
+        "Georgia": {
+            "violent_crimes": 15911.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2186.0
+        },
+        "Illinois": {
+            "violent_crimes": 69318.0
+        },
+        "Indiana": {
+            "violent_crimes": 5635.0
+        },
+        "Kansas": {
+            "violent_crimes": 1655.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8923.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 12175.0
+        },
+        "Maryland": {
+            "violent_crimes": 29134.0
+        },
+        "Michigan": {
+            "violent_crimes": 25805.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5500.0
+        },
+        "Missouri": {
+            "violent_crimes": 18797.0
+        },
+        "North Carolina": {
+            "violent_crimes": 7992.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2774.0
+        },
+        "New Jersey": {
+            "violent_crimes": 9733.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4275.0
+        },
+        "Nevada": {
+            "violent_crimes": 4024.0
+        },
+        "New York": {
+            "violent_crimes": 172192.0
+        },
+        "Ohio": {
+            "violent_crimes": 16334.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 7448.0
+        },
+        "Oregon": {
+            "violent_crimes": 8686.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 21200.0
+        },
+        "Tennessee": {
+            "violent_crimes": 14204.0
+        },
+        "Texas": {
+            "violent_crimes": 61952.0
+        },
+        "Utah": {
+            "violent_crimes": 1036.0
+        },
+        "Virginia": {
+            "violent_crimes": 1703.0
+        },
+        "Washington": {
+            "violent_crimes": 6879.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5037.0
+        }
+    },
+    "1989": {
+        "Arizona": {
+            "violent_crimes": 13068.0
+        },
+        "California": {
+            "violent_crimes": 138254.0
+        },
+        "Colorado": {
+            "violent_crimes": 6431.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 12936.0
+        },
+        "Florida": {
+            "violent_crimes": 53935.0
+        },
+        "Georgia": {
+            "violent_crimes": 16852.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2165.0
+        },
+        "Illinois": {
+            "violent_crimes": 73590.0
+        },
+        "Indiana": {
+            "violent_crimes": 5859.0
+        },
+        "Kansas": {
+            "violent_crimes": 2302.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 10203.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 12919.0
+        },
+        "Maryland": {
+            "violent_crimes": 31301.0
+        },
+        "Michigan": {
+            "violent_crimes": 24956.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5367.0
+        },
+        "Missouri": {
+            "violent_crimes": 21640.0
+        },
+        "North Carolina": {
+            "violent_crimes": 8888.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2751.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10340.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4696.0
+        },
+        "Nevada": {
+            "violent_crimes": 4094.0
+        },
+        "New York": {
+            "violent_crimes": 178637.0
+        },
+        "Ohio": {
+            "violent_crimes": 17641.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8657.0
+        },
+        "Oregon": {
+            "violent_crimes": 8052.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 22633.0
+        },
+        "Tennessee": {
+            "violent_crimes": 13260.0
+        },
+        "Texas": {
+            "violent_crimes": 61554.0
+        },
+        "Utah": {
+            "violent_crimes": 1197.0
+        },
+        "Virginia": {
+            "violent_crimes": 1809.0
+        },
+        "Washington": {
+            "violent_crimes": 6878.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 4270.0
+        }
+    },
+    "1990": {
+        "Arizona": {
+            "violent_crimes": 16069.0
+        },
+        "California": {
+            "violent_crimes": 152971.0
+        },
+        "Colorado": {
+            "violent_crimes": 7396.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 14919.0
+        },
+        "Florida": {
+            "violent_crimes": 60814.0
+        },
+        "Georgia": {
+            "violent_crimes": 16097.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2412.0
+        },
+        "Illinois": {
+            "violent_crimes": 82728.0
+        },
+        "Indiana": {
+            "violent_crimes": 6224.0
+        },
+        "Kansas": {
+            "violent_crimes": 2189.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 11227.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 13664.0
+        },
+        "Maryland": {
+            "violent_crimes": 34514.0
+        },
+        "Michigan": {
+            "violent_crimes": 27747.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4695.0
+        },
+        "Missouri": {
+            "violent_crimes": 24769.0
+        },
+        "North Carolina": {
+            "violent_crimes": 10298.0
+        },
+        "Nebraska": {
+            "violent_crimes": 3140.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10684.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5121.0
+        },
+        "Nevada": {
+            "violent_crimes": 4510.0
+        },
+        "New York": {
+            "violent_crimes": 184786.0
+        },
+        "Ohio": {
+            "violent_crimes": 20688.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9711.0
+        },
+        "Oregon": {
+            "violent_crimes": 7836.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 26404.0
+        },
+        "Tennessee": {
+            "violent_crimes": 15968.0
+        },
+        "Texas": {
+            "violent_crimes": 71056.0
+        },
+        "Utah": {
+            "violent_crimes": 1355.0
+        },
+        "Virginia": {
+            "violent_crimes": 1915.0
+        },
+        "Washington": {
+            "violent_crimes": 7780.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6282.0
+        }
+    },
+    "1991": {
+        "Arizona": {
+            "violent_crimes": 16964.0
+        },
+        "California": {
+            "violent_crimes": 166338.0
+        },
+        "Colorado": {
+            "violent_crimes": 8780.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 14665.0
+        },
+        "Florida": {
+            "violent_crimes": 57245.0
+        },
+        "Georgia": {
+            "violent_crimes": 16327.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2058.0
+        },
+        "Illinois": {
+            "violent_crimes": 90520.0
+        },
+        "Indiana": {
+            "violent_crimes": 7072.0
+        },
+        "Kansas": {
+            "violent_crimes": 2672.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 10969.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11829.0
+        },
+        "Maryland": {
+            "violent_crimes": 36797.0
+        },
+        "Michigan": {
+            "violent_crimes": 28262.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5889.0
+        },
+        "Missouri": {
+            "violent_crimes": 26489.0
+        },
+        "North Carolina": {
+            "violent_crimes": 10521.0
+        },
+        "Nebraska": {
+            "violent_crimes": 3242.0
+        },
+        "New Jersey": {
+            "violent_crimes": 9402.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5591.0
+        },
+        "Nevada": {
+            "violent_crimes": 5661.0
+        },
+        "New York": {
+            "violent_crimes": 181955.0
+        },
+        "Ohio": {
+            "violent_crimes": 22356.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9989.0
+        },
+        "Oregon": {
+            "violent_crimes": 8121.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 26745.0
+        },
+        "Tennessee": {
+            "violent_crimes": 16807.0
+        },
+        "Texas": {
+            "violent_crimes": 80241.0
+        },
+        "Utah": {
+            "violent_crimes": 1319.0
+        },
+        "Virginia": {
+            "violent_crimes": 2041.0
+        },
+        "Washington": {
+            "violent_crimes": 7221.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6228.0
+        }
+    },
+    "1992": {
+        "Arizona": {
+            "violent_crimes": 17288.0
+        },
+        "California": {
+            "violent_crimes": 168646.0
+        },
+        "Colorado": {
+            "violent_crimes": 9367.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 16680.0
+        },
+        "Florida": {
+            "violent_crimes": 57538.0
+        },
+        "Georgia": {
+            "violent_crimes": 15856.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2382.0
+        },
+        "Illinois": {
+            "violent_crimes": 84242.0
+        },
+        "Indiana": {
+            "violent_crimes": 6814.0
+        },
+        "Kansas": {
+            "violent_crimes": 2754.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 10007.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 11672.0
+        },
+        "Maryland": {
+            "violent_crimes": 39052.0
+        },
+        "Michigan": {
+            "violent_crimes": 26447.0
+        },
+        "Minnesota": {
+            "violent_crimes": 6199.0
+        },
+        "Missouri": {
+            "violent_crimes": 25841.0
+        },
+        "North Carolina": {
+            "violent_crimes": 11627.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2207.0
+        },
+        "New Jersey": {
+            "violent_crimes": 9715.0
+        },
+        "New Mexico": {
+            "violent_crimes": 6168.0
+        },
+        "Nevada": {
+            "violent_crimes": 6027.0
+        },
+        "New York": {
+            "violent_crimes": 171777.0
+        },
+        "Ohio": {
+            "violent_crimes": 21354.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 11366.0
+        },
+        "Oregon": {
+            "violent_crimes": 8389.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 23598.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18146.0
+        },
+        "Texas": {
+            "violent_crimes": 73774.0
+        },
+        "Utah": {
+            "violent_crimes": 1317.0
+        },
+        "Virginia": {
+            "violent_crimes": 2215.0
+        },
+        "Washington": {
+            "violent_crimes": 7327.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6332.0
+        }
+    },
+    "1993": {
+        "Arizona": {
+            "violent_crimes": 18609.0
+        },
+        "California": {
+            "violent_crimes": 159186.0
+        },
+        "Colorado": {
+            "violent_crimes": 9709.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 16888.0
+        },
+        "Florida": {
+            "violent_crimes": 60199.0
+        },
+        "Georgia": {
+            "violent_crimes": 16281.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2501.0
+        },
+        "Illinois": {
+            "violent_crimes": 79183.0
+        },
+        "Indiana": {
+            "violent_crimes": 6292.0
+        },
+        "Kansas": {
+            "violent_crimes": 2743.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 10024.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 10843.0
+        },
+        "Maryland": {
+            "violent_crimes": 39411.0
+        },
+        "Michigan": {
+            "violent_crimes": 28358.0
+        },
+        "Minnesota": {
+            "violent_crimes": 6481.0
+        },
+        "Missouri": {
+            "violent_crimes": 25959.0
+        },
+        "North Carolina": {
+            "violent_crimes": 11755.0
+        },
+        "Nebraska": {
+            "violent_crimes": 3899.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10222.0
+        },
+        "New Mexico": {
+            "violent_crimes": 6696.0
+        },
+        "Nevada": {
+            "violent_crimes": 7281.0
+        },
+        "New York": {
+            "violent_crimes": 164839.0
+        },
+        "Ohio": {
+            "violent_crimes": 21077.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 11401.0
+        },
+        "Oregon": {
+            "violent_crimes": 8445.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24055.0
+        },
+        "Tennessee": {
+            "violent_crimes": 19277.0
+        },
+        "Texas": {
+            "violent_crimes": 68328.0
+        },
+        "Utah": {
+            "violent_crimes": 1402.0
+        },
+        "Virginia": {
+            "violent_crimes": 2168.0
+        },
+        "Washington": {
+            "violent_crimes": 7437.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6014.0
+        }
+    },
+    "1994": {
+        "Arizona": {
+            "violent_crimes": 18873.0
+        },
+        "California": {
+            "violent_crimes": 143082.0
+        },
+        "Colorado": {
+            "violent_crimes": 8367.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 15177.0
+        },
+        "Florida": {
+            "violent_crimes": 57283.0
+        },
+        "Georgia": {
+            "violent_crimes": 14684.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2528.0
+        },
+        "Illinois": {
+            "violent_crimes": 78291.0
+        },
+        "Indiana": {
+            "violent_crimes": 6467.0
+        },
+        "Kansas": {
+            "violent_crimes": 2350.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 9321.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 10664.0
+        },
+        "Maryland": {
+            "violent_crimes": 37663.0
+        },
+        "Michigan": {
+            "violent_crimes": 27471.0
+        },
+        "Minnesota": {
+            "violent_crimes": 7074.0
+        },
+        "Missouri": {
+            "violent_crimes": 25337.0
+        },
+        "North Carolina": {
+            "violent_crimes": 11272.0
+        },
+        "Nebraska": {
+            "violent_crimes": 3930.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10409.0
+        },
+        "New Mexico": {
+            "violent_crimes": 6707.0
+        },
+        "Nevada": {
+            "violent_crimes": 9418.0
+        },
+        "New York": {
+            "violent_crimes": 147898.0
+        },
+        "Ohio": {
+            "violent_crimes": 19360.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 11110.0
+        },
+        "Oregon": {
+            "violent_crimes": 8808.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24743.0
+        },
+        "Tennessee": {
+            "violent_crimes": 19230.0
+        },
+        "Texas": {
+            "violent_crimes": 63439.0
+        },
+        "Utah": {
+            "violent_crimes": 1320.0
+        },
+        "Virginia": {
+            "violent_crimes": 2070.0
+        },
+        "Washington": {
+            "violent_crimes": 6538.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6562.0
+        }
+    },
+    "1995": {
+        "Arizona": {
+            "violent_crimes": 19655.0
+        },
+        "California": {
+            "violent_crimes": 137198.0
+        },
+        "Colorado": {
+            "violent_crimes": 6315.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 14745.0
+        },
+        "Florida": {
+            "violent_crimes": 53590.0
+        },
+        "Georgia": {
+            "violent_crimes": 14744.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2882.0
+        },
+        "Illinois": {
+            "violent_crimes": 73011.0
+        },
+        "Indiana": {
+            "violent_crimes": 5707.0
+        },
+        "Kansas": {
+            "violent_crimes": 2185.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 10876.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 9569.0
+        },
+        "Maryland": {
+            "violent_crimes": 39440.0
+        },
+        "Michigan": {
+            "violent_crimes": 24011.0
+        },
+        "Minnesota": {
+            "violent_crimes": 7076.0
+        },
+        "Missouri": {
+            "violent_crimes": 22186.0
+        },
+        "North Carolina": {
+            "violent_crimes": 11267.0
+        },
+        "Nebraska": {
+            "violent_crimes": 3585.0
+        },
+        "New Jersey": {
+            "violent_crimes": 10371.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4735.0
+        },
+        "Nevada": {
+            "violent_crimes": 9523.0
+        },
+        "New York": {
+            "violent_crimes": 124492.0
+        },
+        "Ohio": {
+            "violent_crimes": 19414.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 10386.0
+        },
+        "Oregon": {
+            "violent_crimes": 8833.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 25334.0
+        },
+        "Tennessee": {
+            "violent_crimes": 20415.0
+        },
+        "Texas": {
+            "violent_crimes": 60325.0
+        },
+        "Utah": {
+            "violent_crimes": 1375.0
+        },
+        "Virginia": {
+            "violent_crimes": 1865.0
+        },
+        "Washington": {
+            "violent_crimes": 4904.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6737.0
+        }
+    },
+    "1996": {
+        "Arizona": {
+            "violent_crimes": 18187.0
+        },
+        "California": {
+            "violent_crimes": 124126.0
+        },
+        "Colorado": {
+            "violent_crimes": 5461.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 13411.0
+        },
+        "Florida": {
+            "violent_crimes": 53471.0
+        },
+        "Georgia": {
+            "violent_crimes": 13699.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2748.0
+        },
+        "Illinois": {
+            "violent_crimes": 67498.0
+        },
+        "Indiana": {
+            "violent_crimes": 7418.0
+        },
+        "Kansas": {
+            "violent_crimes": 2372.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 11021.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 9154.0
+        },
+        "Maryland": {
+            "violent_crimes": 36389.0
+        },
+        "Michigan": {
+            "violent_crimes": 23239.0
+        },
+        "Minnesota": {
+            "violent_crimes": 6808.0
+        },
+        "Missouri": {
+            "violent_crimes": 19088.0
+        },
+        "North Carolina": {
+            "violent_crimes": 11024.0
+        },
+        "Nebraska": {
+            "violent_crimes": 4742.0
+        },
+        "New Jersey": {
+            "violent_crimes": 8761.0
+        },
+        "New Mexico": {
+            "violent_crimes": 6267.0
+        },
+        "Nevada": {
+            "violent_crimes": 8409.0
+        },
+        "New York": {
+            "violent_crimes": 107087.0
+        },
+        "Ohio": {
+            "violent_crimes": 17768.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9736.0
+        },
+        "Oregon": {
+            "violent_crimes": 7835.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 23040.0
+        },
+        "Tennessee": {
+            "violent_crimes": 22556.0
+        },
+        "Texas": {
+            "violent_crimes": 59898.0
+        },
+        "Utah": {
+            "violent_crimes": 1501.0
+        },
+        "Virginia": {
+            "violent_crimes": 2018.0
+        },
+        "Washington": {
+            "violent_crimes": 4543.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5974.0
+        }
+    },
+    "1997": {
+        "Arizona": {
+            "violent_crimes": 18046.0
+        },
+        "California": {
+            "violent_crimes": 113429.0
+        },
+        "Colorado": {
+            "violent_crimes": 5193.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 10706.0
+        },
+        "Florida": {
+            "violent_crimes": 49678.0
+        },
+        "Georgia": {
+            "violent_crimes": 12830.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2636.0
+        },
+        "Illinois": {
+            "violent_crimes": 65110.0
+        },
+        "Indiana": {
+            "violent_crimes": 7852.0
+        },
+        "Kansas": {
+            "violent_crimes": 2631.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 8404.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7886.0
+        },
+        "Maryland": {
+            "violent_crimes": 33178.0
+        },
+        "Michigan": {
+            "violent_crimes": 21976.0
+        },
+        "Minnesota": {
+            "violent_crimes": 6733.0
+        },
+        "Missouri": {
+            "violent_crimes": 18160.0
+        },
+        "North Carolina": {
+            "violent_crimes": 11421.0
+        },
+        "Nebraska": {
+            "violent_crimes": 4873.0
+        },
+        "New Jersey": {
+            "violent_crimes": 7227.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5677.0
+        },
+        "Nevada": {
+            "violent_crimes": 9052.0
+        },
+        "New York": {
+            "violent_crimes": 100560.0
+        },
+        "Ohio": {
+            "violent_crimes": 13231.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9661.0
+        },
+        "Oregon": {
+            "violent_crimes": 7600.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 21982.0
+        },
+        "Tennessee": {
+            "violent_crimes": 21127.0
+        },
+        "Texas": {
+            "violent_crimes": 55351.0
+        },
+        "Utah": {
+            "violent_crimes": 1467.0
+        },
+        "Virginia": {
+            "violent_crimes": 1973.0
+        },
+        "Washington": {
+            "violent_crimes": 5002.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6618.0
+        }
+    },
+    "1998": {
+        "Arizona": {
+            "violent_crimes": 17448.0
+        },
+        "California": {
+            "violent_crimes": 99042.0
+        },
+        "Colorado": {
+            "violent_crimes": 4412.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8988.0
+        },
+        "Florida": {
+            "violent_crimes": 43924.0
+        },
+        "Georgia": {
+            "violent_crimes": 12624.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2342.0
+        },
+        "Illinois": {
+            "violent_crimes": 62317.0
+        },
+        "Indiana": {
+            "violent_crimes": 8624.0
+        },
+        "Kansas": {
+            "violent_crimes": 2190.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 6888.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7427.0
+        },
+        "Maryland": {
+            "violent_crimes": 30930.0
+        },
+        "Michigan": {
+            "violent_crimes": 24427.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5524.0
+        },
+        "Missouri": {
+            "violent_crimes": 17210.0
+        },
+        "North Carolina": {
+            "violent_crimes": 10743.0
+        },
+        "Nebraska": {
+            "violent_crimes": 4841.0
+        },
+        "New Jersey": {
+            "violent_crimes": 5637.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5563.0
+        },
+        "Nevada": {
+            "violent_crimes": 7051.0
+        },
+        "New York": {
+            "violent_crimes": 93181.0
+        },
+        "Ohio": {
+            "violent_crimes": 11882.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8986.0
+        },
+        "Oregon": {
+            "violent_crimes": 6707.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24382.0
+        },
+        "Tennessee": {
+            "violent_crimes": 17607.0
+        },
+        "Texas": {
+            "violent_crimes": 54672.0
+        },
+        "Utah": {
+            "violent_crimes": 1465.0
+        },
+        "Virginia": {
+            "violent_crimes": 1876.0
+        },
+        "Washington": {
+            "violent_crimes": 4475.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5895.0
+        }
+    },
+    "1999": {
+        "Arizona": {
+            "violent_crimes": 16638.0
+        },
+        "California": {
+            "violent_crimes": 91012.0
+        },
+        "Colorado": {
+            "violent_crimes": 4363.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8448.0
+        },
+        "Florida": {
+            "violent_crimes": 38279.0
+        },
+        "Georgia": {
+            "violent_crimes": 11226.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2198.0
+        },
+        "Illinois": {
+            "violent_crimes": 51347.0
+        },
+        "Indiana": {
+            "violent_crimes": 7714.0
+        },
+        "Kansas": {
+            "violent_crimes": 1927.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 5931.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7263.0
+        },
+        "Maryland": {
+            "violent_crimes": 32227.0
+        },
+        "Michigan": {
+            "violent_crimes": 21976.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4943.0
+        },
+        "Missouri": {
+            "violent_crimes": 15377.0
+        },
+        "North Carolina": {
+            "violent_crimes": 10169.0
+        },
+        "Nebraska": {
+            "violent_crimes": 4613.0
+        },
+        "New Jersey": {
+            "violent_crimes": 4867.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5255.0
+        },
+        "Nevada": {
+            "violent_crimes": 6133.0
+        },
+        "New York": {
+            "violent_crimes": 85671.0
+        },
+        "Ohio": {
+            "violent_crimes": 14297.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8518.0
+        },
+        "Oregon": {
+            "violent_crimes": 6294.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 26077.0
+        },
+        "Tennessee": {
+            "violent_crimes": 17007.0
+        },
+        "Texas": {
+            "violent_crimes": 56559.0
+        },
+        "Utah": {
+            "violent_crimes": 1258.0
+        },
+        "Virginia": {
+            "violent_crimes": 1619.0
+        },
+        "Washington": {
+            "violent_crimes": 4166.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6061.0
+        }
+    },
+    "2000": {
+        "Arizona": {
+            "violent_crimes": 16689.0
+        },
+        "California": {
+            "violent_crimes": 93443.0
+        },
+        "Colorado": {
+            "violent_crimes": 4398.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8622.0
+        },
+        "Florida": {
+            "violent_crimes": 38995.0
+        },
+        "Georgia": {
+            "violent_crimes": 11583.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2302.0
+        },
+        "Illinois": {
+            "violent_crimes": 48522.0
+        },
+        "Indiana": {
+            "violent_crimes": 6843.0
+        },
+        "Kansas": {
+            "violent_crimes": 2081.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 5155.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7322.0
+        },
+        "Maryland": {
+            "violent_crimes": 30374.0
+        },
+        "Michigan": {
+            "violent_crimes": 22112.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4404.0
+        },
+        "Missouri": {
+            "violent_crimes": 15117.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9565.0
+        },
+        "Nebraska": {
+            "violent_crimes": 3164.0
+        },
+        "New Jersey": {
+            "violent_crimes": 4092.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5136.0
+        },
+        "Nevada": {
+            "violent_crimes": 6349.0
+        },
+        "New York": {
+            "violent_crimes": 83204.0
+        },
+        "Ohio": {
+            "violent_crimes": 14822.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8362.0
+        },
+        "Oregon": {
+            "violent_crimes": 5698.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 26079.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18594.0
+        },
+        "Texas": {
+            "violent_crimes": 58908.0
+        },
+        "Utah": {
+            "violent_crimes": 1301.0
+        },
+        "Virginia": {
+            "violent_crimes": 1097.0
+        },
+        "Washington": {
+            "violent_crimes": 4333.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5711.0
+        }
+    },
+    "2001": {
+        "Arizona": {
+            "violent_crimes": 17871.0
+        },
+        "California": {
+            "violent_crimes": 96141.0
+        },
+        "Colorado": {
+            "violent_crimes": 4685.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 9192.0
+        },
+        "Florida": {
+            "violent_crimes": 37208.0
+        },
+        "Georgia": {
+            "violent_crimes": 10807.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2453.0
+        },
+        "Illinois": {
+            "violent_crimes": 46608.0
+        },
+        "Indiana": {
+            "violent_crimes": 7428.0
+        },
+        "Kansas": {
+            "violent_crimes": 2443.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 5877.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7361.0
+        },
+        "Maryland": {
+            "violent_crimes": 30355.0
+        },
+        "Michigan": {
+            "violent_crimes": 20947.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4101.0
+        },
+        "Missouri": {
+            "violent_crimes": 14745.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9962.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2708.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3837.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5259.0
+        },
+        "Nevada": {
+            "violent_crimes": 7549.0
+        },
+        "New York": {
+            "violent_crimes": 76378.0
+        },
+        "Ohio": {
+            "violent_crimes": 16827.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8730.0
+        },
+        "Oregon": {
+            "violent_crimes": 4556.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24368.0
+        },
+        "Tennessee": {
+            "violent_crimes": 19965.0
+        },
+        "Texas": {
+            "violent_crimes": 64301.0
+        },
+        "Utah": {
+            "violent_crimes": 1166.0
+        },
+        "Virginia": {
+            "violent_crimes": 1087.0
+        },
+        "Washington": {
+            "violent_crimes": 4150.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5463.0
+        }
+    },
+    "2002": {
+        "Arizona": {
+            "violent_crimes": 17819.0
+        },
+        "California": {
+            "violent_crimes": 94199.0
+        },
+        "Colorado": {
+            "violent_crimes": 4931.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 9109.0
+        },
+        "Florida": {
+            "violent_crimes": 36080.0
+        },
+        "Georgia": {
+            "violent_crimes": 9969.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2601.0
+        },
+        "Illinois": {
+            "violent_crimes": 45985.0
+        },
+        "Indiana": {
+            "violent_crimes": 7518.0
+        },
+        "Kansas": {
+            "violent_crimes": 2368.0
+        },
+        "Kentucky": {
+            "violent_crimes": 0.0
+        },
+        "Louisiana": {
+            "violent_crimes": 4556.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 6956.0
+        },
+        "Maryland": {
+            "violent_crimes": 29692.0
+        },
+        "Michigan": {
+            "violent_crimes": 19940.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4123.0
+        },
+        "Missouri": {
+            "violent_crimes": 13553.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9549.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2829.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3193.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4889.0
+        },
+        "Nevada": {
+            "violent_crimes": 8981.0
+        },
+        "New York": {
+            "violent_crimes": 71875.0
+        },
+        "Ohio": {
+            "violent_crimes": 17113.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8537.0
+        },
+        "Oregon": {
+            "violent_crimes": 4512.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 23851.0
+        },
+        "Tennessee": {
+            "violent_crimes": 19100.0
+        },
+        "Texas": {
+            "violent_crimes": 65285.0
+        },
+        "Utah": {
+            "violent_crimes": 1238.0
+        },
+        "Virginia": {
+            "violent_crimes": 1440.0
+        },
+        "Washington": {
+            "violent_crimes": 4092.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5782.0
+        }
+    },
+    "2003": {
+        "Arizona": {
+            "violent_crimes": 16777.0
+        },
+        "California": {
+            "violent_crimes": 89381.0
+        },
+        "Colorado": {
+            "violent_crimes": 5231.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8839.0
+        },
+        "Florida": {
+            "violent_crimes": 34524.0
+        },
+        "Georgia": {
+            "violent_crimes": 8490.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2606.0
+        },
+        "Illinois": {
+            "violent_crimes": 39483.0
+        },
+        "Indiana": {
+            "violent_crimes": 7067.0
+        },
+        "Kansas": {
+            "violent_crimes": 2229.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3323.0
+        },
+        "Louisiana": {
+            "violent_crimes": 4596.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7173.0
+        },
+        "Maryland": {
+            "violent_crimes": 26385.0
+        },
+        "Michigan": {
+            "violent_crimes": 18724.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4517.0
+        },
+        "Missouri": {
+            "violent_crimes": 13575.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9198.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2627.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2731.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4439.0
+        },
+        "Nevada": {
+            "violent_crimes": 9158.0
+        },
+        "New York": {
+            "violent_crimes": 67563.0
+        },
+        "Ohio": {
+            "violent_crimes": 16071.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8946.0
+        },
+        "Oregon": {
+            "violent_crimes": 4436.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24179.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18644.0
+        },
+        "Texas": {
+            "violent_crimes": 60374.0
+        },
+        "Utah": {
+            "violent_crimes": 1296.0
+        },
+        "Virginia": {
+            "violent_crimes": 1580.0
+        },
+        "Washington": {
+            "violent_crimes": 3944.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 5290.0
+        }
+    },
+    "2004": {
+        "Arizona": {
+            "violent_crimes": 16838.0
+        },
+        "California": {
+            "violent_crimes": 83029.0
+        },
+        "Colorado": {
+            "violent_crimes": 6229.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7336.0
+        },
+        "Florida": {
+            "violent_crimes": 30927.0
+        },
+        "Georgia": {
+            "violent_crimes": 7921.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2507.0
+        },
+        "Illinois": {
+            "violent_crimes": 36863.0
+        },
+        "Indiana": {
+            "violent_crimes": 7067.0
+        },
+        "Kansas": {
+            "violent_crimes": 2887.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3280.0
+        },
+        "Louisiana": {
+            "violent_crimes": 4467.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 6917.0
+        },
+        "Maryland": {
+            "violent_crimes": 26889.0
+        },
+        "Michigan": {
+            "violent_crimes": 15913.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4726.0
+        },
+        "Missouri": {
+            "violent_crimes": 13406.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9142.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2608.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2867.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4720.0
+        },
+        "Nevada": {
+            "violent_crimes": 9783.0
+        },
+        "New York": {
+            "violent_crimes": 63520.0
+        },
+        "Ohio": {
+            "violent_crimes": 15614.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9009.0
+        },
+        "Oregon": {
+            "violent_crimes": 4034.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24641.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18708.0
+        },
+        "Texas": {
+            "violent_crimes": 59945.0
+        },
+        "Utah": {
+            "violent_crimes": 1329.0
+        },
+        "Virginia": {
+            "violent_crimes": 1600.0
+        },
+        "Washington": {
+            "violent_crimes": 3798.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 4637.0
+        }
+    },
+    "2005": {
+        "Arizona": {
+            "violent_crimes": 18019.0
+        },
+        "California": {
+            "violent_crimes": 73559.0
+        },
+        "Colorado": {
+            "violent_crimes": 6281.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7716.0
+        },
+        "Florida": {
+            "violent_crimes": 30505.0
+        },
+        "Georgia": {
+            "violent_crimes": 7213.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2570.0
+        },
+        "Illinois": {
+            "violent_crimes": 36050.0
+        },
+        "Indiana": {
+            "violent_crimes": 7948.0
+        },
+        "Kansas": {
+            "violent_crimes": 2644.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3896.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2090.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7479.0
+        },
+        "Maryland": {
+            "violent_crimes": 27168.0
+        },
+        "Michigan": {
+            "violent_crimes": 21274.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5472.0
+        },
+        "Missouri": {
+            "violent_crimes": 14859.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9983.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2327.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2821.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4670.0
+        },
+        "Nevada": {
+            "violent_crimes": 9530.0
+        },
+        "New York": {
+            "violent_crimes": 62800.0
+        },
+        "Ohio": {
+            "violent_crimes": 16371.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9533.0
+        },
+        "Oregon": {
+            "violent_crimes": 3858.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24994.0
+        },
+        "Tennessee": {
+            "violent_crimes": 21619.0
+        },
+        "Texas": {
+            "violent_crimes": 59726.0
+        },
+        "Utah": {
+            "violent_crimes": 1301.0
+        },
+        "Virginia": {
+            "violent_crimes": 1714.0
+        },
+        "Washington": {
+            "violent_crimes": 4109.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6027.0
+        }
+    },
+    "2006": {
+        "Arizona": {
+            "violent_crimes": 17859.0
+        },
+        "California": {
+            "violent_crimes": 74400.0
+        },
+        "Colorado": {
+            "violent_crimes": 6181.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8408.0
+        },
+        "Florida": {
+            "violent_crimes": 29780.0
+        },
+        "Georgia": {
+            "violent_crimes": 7548.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2745.0
+        },
+        "Illinois": {
+            "violent_crimes": 35363.0
+        },
+        "Indiana": {
+            "violent_crimes": 7689.0
+        },
+        "Kansas": {
+            "violent_crimes": 3325.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3836.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2255.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 7533.0
+        },
+        "Maryland": {
+            "violent_crimes": 25527.0
+        },
+        "Michigan": {
+            "violent_crimes": 21391.0
+        },
+        "Minnesota": {
+            "violent_crimes": 6374.0
+        },
+        "Missouri": {
+            "violent_crimes": 15076.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9755.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2505.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2839.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4550.0
+        },
+        "Nevada": {
+            "violent_crimes": 12931.0
+        },
+        "New York": {
+            "violent_crimes": 60337.0
+        },
+        "Ohio": {
+            "violent_crimes": 16759.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9117.0
+        },
+        "Oregon": {
+            "violent_crimes": 3872.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 26357.0
+        },
+        "Tennessee": {
+            "violent_crimes": 22122.0
+        },
+        "Texas": {
+            "violent_crimes": 60312.0
+        },
+        "Utah": {
+            "violent_crimes": 1504.0
+        },
+        "Virginia": {
+            "violent_crimes": 2019.0
+        },
+        "Washington": {
+            "violent_crimes": 4152.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 7802.0
+        }
+    },
+    "2007": {
+        "Arizona": {
+            "violent_crimes": 17485.0
+        },
+        "California": {
+            "violent_crimes": 71297.0
+        },
+        "Colorado": {
+            "violent_crimes": 5213.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7924.0
+        },
+        "Florida": {
+            "violent_crimes": 30723.0
+        },
+        "Georgia": {
+            "violent_crimes": 8075.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2613.0
+        },
+        "Illinois": {
+            "violent_crimes": 34936.0
+        },
+        "Indiana": {
+            "violent_crimes": 9841.0
+        },
+        "Kansas": {
+            "violent_crimes": 3391.0
+        },
+        "Kentucky": {
+            "violent_crimes": 4238.0
+        },
+        "Louisiana": {
+            "violent_crimes": 3451.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 6837.0
+        },
+        "Maryland": {
+            "violent_crimes": 23706.0
+        },
+        "Michigan": {
+            "violent_crimes": 19690.0
+        },
+        "Minnesota": {
+            "violent_crimes": 5580.0
+        },
+        "Missouri": {
+            "violent_crimes": 16034.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9331.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2578.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2415.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5080.0
+        },
+        "Nevada": {
+            "violent_crimes": 13641.0
+        },
+        "New York": {
+            "violent_crimes": 57787.0
+        },
+        "Ohio": {
+            "violent_crimes": 16357.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9164.0
+        },
+        "Oregon": {
+            "violent_crimes": 3701.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24635.0
+        },
+        "Tennessee": {
+            "violent_crimes": 21578.0
+        },
+        "Texas": {
+            "violent_crimes": 58649.0
+        },
+        "Utah": {
+            "violent_crimes": 1504.0
+        },
+        "Virginia": {
+            "violent_crimes": 1957.0
+        },
+        "Washington": {
+            "violent_crimes": 3667.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 8057.0
+        }
+    },
+    "2008": {
+        "Arizona": {
+            "violent_crimes": 17006.0
+        },
+        "California": {
+            "violent_crimes": 68854.0
+        },
+        "Colorado": {
+            "violent_crimes": 4980.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8135.0
+        },
+        "Florida": {
+            "violent_crimes": 29294.0
+        },
+        "Georgia": {
+            "violent_crimes": 7403.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2575.0
+        },
+        "Illinois": {
+            "violent_crimes": 35789.0
+        },
+        "Indiana": {
+            "violent_crimes": 9735.0
+        },
+        "Kansas": {
+            "violent_crimes": 3097.0
+        },
+        "Kentucky": {
+            "violent_crimes": 4306.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2869.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 6676.0
+        },
+        "Maryland": {
+            "violent_crimes": 23034.0
+        },
+        "Michigan": {
+            "violent_crimes": 17982.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4779.0
+        },
+        "Missouri": {
+            "violent_crimes": 13652.0
+        },
+        "North Carolina": {
+            "violent_crimes": 9315.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2648.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2660.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4718.0
+        },
+        "Nevada": {
+            "violent_crimes": 13324.0
+        },
+        "New York": {
+            "violent_crimes": 55914.0
+        },
+        "Ohio": {
+            "violent_crimes": 16222.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 10322.0
+        },
+        "Oregon": {
+            "violent_crimes": 3445.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 24129.0
+        },
+        "Tennessee": {
+            "violent_crimes": 21304.0
+        },
+        "Texas": {
+            "violent_crimes": 59547.0
+        },
+        "Utah": {
+            "violent_crimes": 1424.0
+        },
+        "Virginia": {
+            "violent_crimes": 1772.0
+        },
+        "Washington": {
+            "violent_crimes": 3447.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 7404.0
+        }
+    },
+    "2009": {
+        "Arizona": {
+            "violent_crimes": 14290.0
+        },
+        "California": {
+            "violent_crimes": 62989.0
+        },
+        "Colorado": {
+            "violent_crimes": 4993.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7587.0
+        },
+        "Florida": {
+            "violent_crimes": 24981.0
+        },
+        "Georgia": {
+            "violent_crimes": 6359.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2537.0
+        },
+        "Illinois": {
+            "violent_crimes": 33501.0
+        },
+        "Indiana": {
+            "violent_crimes": 9759.0
+        },
+        "Kansas": {
+            "violent_crimes": 3255.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3769.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2614.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 6192.0
+        },
+        "Maryland": {
+            "violent_crimes": 21569.0
+        },
+        "Michigan": {
+            "violent_crimes": 18094.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4242.0
+        },
+        "Missouri": {
+            "violent_crimes": 13656.0
+        },
+        "North Carolina": {
+            "violent_crimes": 7626.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2363.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2597.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4082.0
+        },
+        "Nevada": {
+            "violent_crimes": 13039.0
+        },
+        "New York": {
+            "violent_crimes": 54184.0
+        },
+        "Ohio": {
+            "violent_crimes": 15352.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9476.0
+        },
+        "Oregon": {
+            "violent_crimes": 3105.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 22250.0
+        },
+        "Tennessee": {
+            "violent_crimes": 19031.0
+        },
+        "Texas": {
+            "violent_crimes": 57087.0
+        },
+        "Utah": {
+            "violent_crimes": 1284.0
+        },
+        "Virginia": {
+            "violent_crimes": 1601.0
+        },
+        "Washington": {
+            "violent_crimes": 3861.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6661.0
+        }
+    },
+    "2010": {
+        "Arizona": {
+            "violent_crimes": 13122.0
+        },
+        "California": {
+            "violent_crimes": 58692.0
+        },
+        "Colorado": {
+            "violent_crimes": 4836.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7468.0
+        },
+        "Florida": {
+            "violent_crimes": 22019.0
+        },
+        "Georgia": {
+            "violent_crimes": 5749.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2548.0
+        },
+        "Illinois": {
+            "violent_crimes": 29774.0
+        },
+        "Indiana": {
+            "violent_crimes": 9646.0
+        },
+        "Kansas": {
+            "violent_crimes": 3038.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3734.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2593.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 5819.0
+        },
+        "Maryland": {
+            "violent_crimes": 20261.0
+        },
+        "Michigan": {
+            "violent_crimes": 16973.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4064.0
+        },
+        "Missouri": {
+            "violent_crimes": 11848.0
+        },
+        "North Carolina": {
+            "violent_crimes": 6631.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2274.0
+        },
+        "New Jersey": {
+            "violent_crimes": 2885.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4291.0
+        },
+        "Nevada": {
+            "violent_crimes": 12648.0
+        },
+        "New York": {
+            "violent_crimes": 55615.0
+        },
+        "Ohio": {
+            "violent_crimes": 14616.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9608.0
+        },
+        "Oregon": {
+            "violent_crimes": 3051.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 21345.0
+        },
+        "Tennessee": {
+            "violent_crimes": 17203.0
+        },
+        "Texas": {
+            "violent_crimes": 52963.0
+        },
+        "Utah": {
+            "violent_crimes": 1294.0
+        },
+        "Virginia": {
+            "violent_crimes": 1802.0
+        },
+        "Washington": {
+            "violent_crimes": 3515.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6336.0
+        }
+    },
+    "2011": {
+        "Arizona": {
+            "violent_crimes": 13366.0
+        },
+        "California": {
+            "violent_crimes": 55102.0
+        },
+        "Colorado": {
+            "violent_crimes": 5178.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 6985.0
+        },
+        "Florida": {
+            "violent_crimes": 21763.0
+        },
+        "Georgia": {
+            "violent_crimes": 6097.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2370.0
+        },
+        "Illinois": {
+            "violent_crimes": 28273.0
+        },
+        "Indiana": {
+            "violent_crimes": 9170.0
+        },
+        "Kansas": {
+            "violent_crimes": 2963.0
+        },
+        "Kentucky": {
+            "violent_crimes": 4086.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2748.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 5252.0
+        },
+        "Maryland": {
+            "violent_crimes": 18829.0
+        },
+        "Michigan": {
+            "violent_crimes": 15254.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3722.0
+        },
+        "Missouri": {
+            "violent_crimes": 11505.0
+        },
+        "North Carolina": {
+            "violent_crimes": 6511.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2309.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3243.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4210.0
+        },
+        "Nevada": {
+            "violent_crimes": 10813.0
+        },
+        "New York": {
+            "violent_crimes": 57780.0
+        },
+        "Ohio": {
+            "violent_crimes": 13735.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9068.0
+        },
+        "Oregon": {
+            "violent_crimes": 3037.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 20744.0
+        },
+        "Tennessee": {
+            "violent_crimes": 17591.0
+        },
+        "Texas": {
+            "violent_crimes": 49041.0
+        },
+        "Utah": {
+            "violent_crimes": 1230.0
+        },
+        "Virginia": {
+            "violent_crimes": 1702.0
+        },
+        "Washington": {
+            "violent_crimes": 3664.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 6637.0
+        }
+    },
+    "2012": {
+        "Arizona": {
+            "violent_crimes": 15112.0
+        },
+        "California": {
+            "violent_crimes": 55794.0
+        },
+        "Colorado": {
+            "violent_crimes": 5285.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7448.0
+        },
+        "Florida": {
+            "violent_crimes": 20761.0
+        },
+        "Georgia": {
+            "violent_crimes": 6027.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2336.0
+        },
+        "Illinois": {
+            "violent_crimes": 27620.0
+        },
+        "Indiana": {
+            "violent_crimes": 9942.0
+        },
+        "Kansas": {
+            "violent_crimes": 2896.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3989.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2958.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 5266.0
+        },
+        "Maryland": {
+            "violent_crimes": 18684.0
+        },
+        "Michigan": {
+            "violent_crimes": 15023.0
+        },
+        "Minnesota": {
+            "violent_crimes": 3872.0
+        },
+        "Missouri": {
+            "violent_crimes": 11550.0
+        },
+        "North Carolina": {
+            "violent_crimes": 7018.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2485.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3220.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4151.0
+        },
+        "Nevada": {
+            "violent_crimes": 11598.0
+        },
+        "New York": {
+            "violent_crimes": 59819.0
+        },
+        "Ohio": {
+            "violent_crimes": 13180.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 9423.0
+        },
+        "Oregon": {
+            "violent_crimes": 3093.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 20200.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18731.0
+        },
+        "Texas": {
+            "violent_crimes": 49632.0
+        },
+        "Utah": {
+            "violent_crimes": 1302.0
+        },
+        "Virginia": {
+            "violent_crimes": 1609.0
+        },
+        "Washington": {
+            "violent_crimes": 3782.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 7932.0
+        }
+    },
+    "2013": {
+        "Arizona": {
+            "violent_crimes": 14667.0
+        },
+        "California": {
+            "violent_crimes": 53448.0
+        },
+        "Colorado": {
+            "violent_crimes": 5522.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7880.0
+        },
+        "Florida": {
+            "violent_crimes": 20661.0
+        },
+        "Georgia": {
+            "violent_crimes": 5516.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2276.0
+        },
+        "Illinois": {
+            "violent_crimes": 25688.0
+        },
+        "Indiana": {
+            "violent_crimes": 10479.0
+        },
+        "Kansas": {
+            "violent_crimes": 3069.0
+        },
+        "Kentucky": {
+            "violent_crimes": 3644.0
+        },
+        "Louisiana": {
+            "violent_crimes": 2965.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 5037.0
+        },
+        "Maryland": {
+            "violent_crimes": 18098.0
+        },
+        "Michigan": {
+            "violent_crimes": 14501.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4038.0
+        },
+        "Missouri": {
+            "violent_crimes": 10953.0
+        },
+        "North Carolina": {
+            "violent_crimes": 6776.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2449.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3516.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4325.0
+        },
+        "Nevada": {
+            "violent_crimes": 11374.0
+        },
+        "New York": {
+            "violent_crimes": 58626.0
+        },
+        "Ohio": {
+            "violent_crimes": 13086.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8825.0
+        },
+        "Oregon": {
+            "violent_crimes": 2941.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 19333.0
+        },
+        "Tennessee": {
+            "violent_crimes": 17557.0
+        },
+        "Texas": {
+            "violent_crimes": 50073.0
+        },
+        "Utah": {
+            "violent_crimes": 1487.0
+        },
+        "Virginia": {
+            "violent_crimes": 1743.0
+        },
+        "Washington": {
+            "violent_crimes": 3760.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 8194.0
+        }
+    },
+    "2014": {
+        "Arizona": {
+            "violent_crimes": 14311.0
+        },
+        "California": {
+            "violent_crimes": 54043.0
+        },
+        "Colorado": {
+            "violent_crimes": 5432.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 7810.0
+        },
+        "Florida": {
+            "violent_crimes": 21317.0
+        },
+        "Georgia": {
+            "violent_crimes": 5577.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2273.0
+        },
+        "Illinois": {
+            "violent_crimes": 24133.0
+        },
+        "Indiana": {
+            "violent_crimes": 10768.0
+        },
+        "Kansas": {
+            "violent_crimes": 2939.0
+        },
+        "Kentucky": {
+            "violent_crimes": 4015.0
+        },
+        "Louisiana": {
+            "violent_crimes": 3770.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 4749.0
+        },
+        "Maryland": {
+            "violent_crimes": 17179.0
+        },
+        "Michigan": {
+            "violent_crimes": 13622.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4093.0
+        },
+        "Missouri": {
+            "violent_crimes": 11240.0
+        },
+        "North Carolina": {
+            "violent_crimes": 6784.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2458.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3009.0
+        },
+        "New Mexico": {
+            "violent_crimes": 4934.0
+        },
+        "Nevada": {
+            "violent_crimes": 12876.0
+        },
+        "New York": {
+            "violent_crimes": 56642.0
+        },
+        "Ohio": {
+            "violent_crimes": 12564.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 7999.0
+        },
+        "Oregon": {
+            "violent_crimes": 2911.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 18380.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18709.0
+        },
+        "Texas": {
+            "violent_crimes": 50767.0
+        },
+        "Utah": {
+            "violent_crimes": 1452.0
+        },
+        "Virginia": {
+            "violent_crimes": 1636.0
+        },
+        "Washington": {
+            "violent_crimes": 4005.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 8914.0
+        }
+    },
+    "2015": {
+        "Arizona": {
+            "violent_crimes": 14705.0
+        },
+        "California": {
+            "violent_crimes": 61320.0
+        },
+        "Colorado": {
+            "violent_crimes": 6259.0
+        },
+        "District of Columbia": {
+            "violent_crimes": 8084.0
+        },
+        "Florida": {
+            "violent_crimes": 21097.0
+        },
+        "Georgia": {
+            "violent_crimes": 5203.0
+        },
+        "Hawaii": {
+            "violent_crimes": 2437.0
+        },
+        "Illinois": {
+            "violent_crimes": 24663.0
+        },
+        "Indiana": {
+            "violent_crimes": 11124.0
+        },
+        "Kansas": {
+            "violent_crimes": 3839.0
+        },
+        "Kentucky": {
+            "violent_crimes": 4300.0
+        },
+        "Louisiana": {
+            "violent_crimes": 3736.0
+        },
+        "Massachusetts": {
+            "violent_crimes": 4702.0
+        },
+        "Maryland": {
+            "violent_crimes": 14762.0
+        },
+        "Michigan": {
+            "violent_crimes": 11846.0
+        },
+        "Minnesota": {
+            "violent_crimes": 4395.0
+        },
+        "Missouri": {
+            "violent_crimes": 12471.0
+        },
+        "North Carolina": {
+            "violent_crimes": 7624.0
+        },
+        "Nebraska": {
+            "violent_crimes": 2329.0
+        },
+        "New Jersey": {
+            "violent_crimes": 3072.0
+        },
+        "New Mexico": {
+            "violent_crimes": 5406.0
+        },
+        "Nevada": {
+            "violent_crimes": 14383.0
+        },
+        "New York": {
+            "violent_crimes": 55968.0
+        },
+        "Ohio": {
+            "violent_crimes": 7392.0
+        },
+        "Oklahoma": {
+            "violent_crimes": 8456.0
+        },
+        "Oregon": {
+            "violent_crimes": 0.0
+        },
+        "Pennsylvania": {
+            "violent_crimes": 18299.0
+        },
+        "Tennessee": {
+            "violent_crimes": 18694.0
+        },
+        "Texas": {
+            "violent_crimes": 51943.0
+        },
+        "Utah": {
+            "violent_crimes": 1642.0
+        },
+        "Virginia": {
+            "violent_crimes": 1600.0
+        },
+        "Washington": {
+            "violent_crimes": 4093.0
+        },
+        "Wisconsin": {
+            "violent_crimes": 9583.0
+        }
+    }
+}

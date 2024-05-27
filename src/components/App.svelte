@@ -1,13 +1,20 @@
 <script>
-  // Write your JS here, or import other files
+  import Map from './Map.svelte';
 </script>
 
 <main>
-  <h1>Svelte template</h1>
-
-  <p>Write your HTML here</p>
+  <h1>Crime Rates per Capita in the USA</h1>
+  <Map />
 </main>
 
 <style>
-  /* Write your CSS here */
+  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  h1 {
+    color: #333;
+  }
 </style>
