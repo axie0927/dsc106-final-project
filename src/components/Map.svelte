@@ -2,199 +2,160 @@
   import { onMount } from 'svelte';
   import * as d3 from 'd3';
 
-  let years = Array.from({ length: 2015 - 1975 + 1 }, (_, i) => 1975 + i);
-  let violent_crimes = ["homicides_percapita", "rapes_percapita", "assaults_percapita", "robberies_percapita"];
-  let selectedYear = 1975;
-  let selectedCrime = "homicides_percapita";
-  let geojson;
-  let dataTotal;
-  let pointsData;
+  let years = Array.from({ length: 2015 - 1975 + 1 }, (_, i) => (1975 + i).toString());
+  let selectedCrime = "violent_crimes";
+  let violent_crimes = ["violent_crimes","homicides", "rapes", "assaults", "robberies"];
   let crimeData;
+  let geojson;
+  let selectedYear = "1990";
+  let path;
+  const width = 800;
+  const height = 600;
+  let projection;
 
   onMount(async () => {
-    const response_map = await fetch('us-states.json');
-    geojson = await response_map.json();
+    const response = await fetch('us-states.json');
+    geojson = await response.json();
 
-    const response_data = await fetch('state-total.json');  
-    const data_total = await response_data.json();
-    dataTotal = data_total;
+    const crime = await d3.csv('crime.csv');
+    crimeData = crime.filter(item => item.report_year === selectedYear);
 
-    const response_points = await fetch('cities.geojson');
-    const pointsText = await response_points.json();
-    pointsData = pointsText.features.filter(feature => feature.geometry.type === 'Point');
-
-    const response_crime = await fetch('crimes.json');
-    const crime_stats = await response_crime.json();
-    crimeData = crime_stats;
+    projection = d3.geoAlbersUsa().translate([width/2, height/2]);
+    path = d3.geoPath().projection(projection);
 
     updateMap();
-
   });
 
   function updateMap() {
-    
-    const width = 800;
-    const height = 600;
+    // Check if SVG exists, otherwise create it
+    let svg = d3.select('#map-container').select('svg');
+    if (svg.empty()) {
+      svg = d3.select('#map-container').append('svg')
+        .attr('width', width)
+        .attr('height', height);
+    }
 
-    const svg = d3.select('svg')
-      .attr('width', width)
-      .attr('height', height);
-
-    // Remove previous paths
+    // Clear previous map paths, bubbles, tooltips, and legends
     svg.selectAll('path').remove();
+    svg.selectAll('circle').remove();
+    svg.selectAll('g.bubble').remove();
+    d3.select('body').selectAll('.tooltip').remove();
+    svg.selectAll('g.legend').remove();
 
-    const projection = d3.geoAlbersUsa()
-      .scale(1)
-      .translate([0, 0]);
-
-    const path = d3.geoPath().projection(projection);
-
-    // Fix size of map
-    const bounds = path.bounds(geojson),
-          scale = 0.95 / Math.max((bounds[1][0] - bounds[0][0]) / width, (bounds[1][1] - bounds[0][1]) / height),
-          translate = [(width - scale * (bounds[1][0] + bounds[0][0])) / 2, (height - scale * (bounds[1][1] + bounds[0][1])) / 2];
-
-    projection
-      .scale(scale)
-      .translate(translate);
-
-    // Set color scale
-    const populationValues = Object.values(dataTotal[selectedYear]).map(stateData => stateData.violent_crimes);
-    const minPopulation = d3.min(populationValues);
-    const medianPopulation = d3.median(populationValues);
-    const maxPopulation = d3.max(populationValues);
-
-    const colorScale = d3.scaleLinear()
-                        .domain([minPopulation, medianPopulation, maxPopulation])
-                        .range(["lightblue", "blue", "darkblue"]);
-
-    // Set up tooltip for data points
-    const Tooltip = d3.select('body')
-                  .append('div')
-                  .attr('class', 'tooltip')
-                  .style('opacity', 0)
-                  .attr("class", "tooltip")
-                  .style("background-color", "white")
-                  .style("border", "solid")
-                  .style("border-width", "2px")
-                  .style("border-radius", "5px")
-                  .style("padding", "5px")
-                  .style("position", "absolute");
-
-    const mouseover1 = function(event, d) {
-        Tooltip.style('opacity', 1);
-        d3.select(this)
-          .style('stroke', 'blue')
-          .style('opacity', 1);
-    };
-
-    const mouseover2 = function(event, d) {
-        Tooltip.style('opacity', 1);
-        d3.select(this)
-          .style('stroke', 'black')
-          .style('opacity', 1);
-    };
-
-    const mousemove1 = function(event, d) {
-        const state = d.properties.name;
-        const num_crimes = dataTotal[selectedYear][state].violent_crimes
-        Tooltip.html(`State: ${state}<br>Total Number of Crimes: ${num_crimes}`)
-            .style('left', (event.x) + 20 + "px")
-            .style('top', (event.y + window.pageYOffset) + "px");
-    };
-
-    const mousemove2 = function(event, d) {
-        const city = d.properties.name;
-        const tempCrimeData = crimeData[selectedYear][selectedCrime][city]
-        const population = tempCrimeData.population
-        const crimeValue = tempCrimeData[selectedCrime]
-        Tooltip.html(`City: ${city}<br>City Population: ${population}<br>Number of Crimes per Capita: ${crimeValue}<br>`)
-            .style('left', (event.x) + 20 + "px")
-            .style('top', (event.y + window.pageYOffset) + "px");
-    };
-
-    const mouseleave1 = function(event, d) {
-        Tooltip.style('opacity', 0);
-        d3.select(this)
-          .style('stroke', 'none')
-          .style('opacity', 0.8);
-    };
-
-    const mouseleave2 = function(event, d) {
-        Tooltip.style('opacity', 0);
-        d3.select(this)
-          .style('stroke', 'none')
-          .style('opacity', 0.8);
-    };
-
+    // Draw map paths
     svg.selectAll('path')
       .data(geojson.features)
-      .enter().append('path')
+      .enter()
+      .append('path')
       .attr('d', path)
-      .attr('fill', d => {
-        const state = d.properties.name;
-        const yearData = dataTotal[selectedYear];
-        if (yearData && yearData[state] && yearData[state].violent_crimes) {
-          const total = yearData[state].violent_crimes;
-          return colorScale(total);
-        }
-        return 'grey';
-      })
       .attr('stroke', 'white')
-      .on('mouseover', mouseover1)
-      .on('mousemove', mousemove1)
-      .on('mouseleave', mouseleave1);
+      .attr('fill', '#ddd');
 
-    // Filter pointsData to include only cities with data
-    const citiesWithData = Object.keys(crimeData[selectedYear][selectedCrime]);
+    const bubble = svg.append("g").attr("class", "bubble");
 
-    const filteredPointsData = pointsData.filter(feature => {
-        const city = feature.properties.name;
-        return citiesWithData.includes(city);
-    });
+    // Create a tooltip
+    const tooltip = d3.select('body')
+      .append('div')
+      .attr('class', 'tooltip')
+      .style('opacity', 0)
+      .style("background-color", "white")
+      .style("border", "solid")
+      .style("border-width", "2px")
+      .style("border-radius", "5px")
+      .style("padding", "5px")
+      .style("position", "absolute");
 
-    svg.append('g')
-      .attr('class', 'points')
-      .selectAll('circle')
-      .data(filteredPointsData)
-      .enter().append('circle')
-      .attr('cx', d => projection(d.geometry.coordinates)[0])
-      .attr('cy', d => projection(d.geometry.coordinates)[1])
-      .attr('r', 5)
-      .style('fill', 'red')
-      .on('mouseover', mouseover2)
-      .on('mousemove', mousemove2)
-      .on('mouseleave', mouseleave2);
+    // Tooltip and mouse events
+    const mouseover = function (event, d) {
+      tooltip.style("opacity", 1);
+      d3.select(this)
+        .style("fill", "#589BE5")
+        .style("stroke", "#EF4A60")
+        .style("opacity", 1);
+    };
+
+    const mousemove = function (event, d) {
+      const f = d3.format(",");
+      tooltip.html("<div style='color: #0072BC'><b>" + d.city + "</b></div><div>Number of " + selectedCrime.replace('_', ' ') + ": " + `${f(d[selectedCrime])}` + "</div>"
+      + "<div>Population: " + d.population + "</div>")
+        .style("left", (event.x) + 20 + "px")
+        .style("top", (event.y + window.pageYOffset) + "px");
+    };
+
+    const mouseleave = function () {
+      tooltip.style("opacity", 0);
+      d3.select(this)
+        .style("stroke", "#0072BC")
+        .style("opacity", 1);
+    };
+
+    // Set bubble scale
+    const valueScale = d3.extent(crimeData, d => +d[selectedCrime]);
+    const size = d3.scaleSqrt()
+      .domain(valueScale)
+      .range([1, 40]);
+
+    // Draw bubbles
+    bubble.selectAll("circle")
+      .data(crimeData)
+      .join("circle")
+      .attr("cx", d => projection([+d.lng, +d.lat])[0])
+      .attr("cy", d => projection([+d.lng, +d.lat])[1])
+      .attr("r", d => size(+d[selectedCrime]))
+      .style("fill", "#589BE5")
+      .attr("stroke", "#0072BC")
+      .attr("stroke-width", 0.5)
+      .attr("fill-opacity", .6)
+      .on("mouseover", mouseover)
+      .on("mousemove", mousemove)
+      .on("mouseleave", mouseleave)
+      .transition() // Add transition
+      .duration(500) // Set transition duration in milliseconds
+      .attr("r", d => size(+d[selectedCrime])); // Transition to new size;
+
+
   }
 
   function handleYearChange(event) {
     selectedYear = event.target.value;
-    updateMap();
+    d3.csv('crime.csv').then(data => {
+      crimeData = data.filter(item => item.report_year === selectedYear);
+      updateMap();
+    });
   }
 
   function handleCrimeChange(event) {
     selectedCrime = event.target.value;
     updateMap();
   }
-  
 </script>
 
-<select bind:value={selectedYear} on:change={handleYearChange}>
-  {#each years as year}
-    <option value={year}>{year}</option>
-  {/each}
-</select>
+<div id="container">
+  <div id="controls">
+    <select bind:value={selectedYear} on:change={handleYearChange}>
+      {#each years as year}
+        <option value={year}>{year}</option>
+      {/each}
+    </select>
 
-<select bind:value={selectedCrime} on:change={handleCrimeChange}>
-  {#each violent_crimes as crime}
-    <option value={crime}>{crime}</option>
-  {/each}
-</select>
-
-<svg></svg>
+    <select bind:value={selectedCrime} on:change={handleCrimeChange}>
+      {#each violent_crimes as crime}
+        <option value={crime}>{crime}</option>
+      {/each}
+    </select>
+  </div>
+  <div id="map-container"></div>
+</div>
 
 <style>
-  svg {
-    border: 1px solid black;
+  #container {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #controls {
+    margin-bottom: 10px;
   }
 </style>
