@@ -4,7 +4,7 @@
 
   let years = Array.from({ length: 2015 - 1975 + 1 }, (_, i) => (1975 + i).toString());
   let selectedCrime = "violent_crimes";
-  let violent_crimes = ["violent_crimes","homicides", "rapes", "assaults", "robberies"];
+  let violent_crimes = ["violent_crimes", "homicides", "rapes", "assaults", "robberies"];
   let crimeData;
   let geojson;
   let selectedYear = "1990";
@@ -12,6 +12,7 @@
   const width = 800;
   const height = 600;
   let projection;
+  let selected = null;
 
   onMount(async () => {
     const response = await fetch('us-states.json');
@@ -20,7 +21,7 @@
     const crime = await d3.csv('crime.csv');
     crimeData = crime.filter(item => item.report_year === selectedYear);
 
-    projection = d3.geoAlbersUsa().translate([width/2, height/2]);
+    projection = d3.geoAlbersUsa().translate([width / 2, height / 2]);
     path = d3.geoPath().projection(projection);
 
     updateMap();
@@ -77,9 +78,9 @@
     const mousemove = function (event, d) {
       const f = d3.format(",");
       tooltip.html("<div style='color: #0072BC'><b>" + d.city + "</b></div><div>Number of " + selectedCrime.replace('_', ' ') + ": " + `${f(d[selectedCrime])}` + "</div>"
-      + "<div>Population: " + d.population + "</div>")
+        + "<div>Population: " + d.population + "</div>")
         .style("left", (event.x) + 20 + "px")
-        .style("top", (event.y + window.pageYOffset) + "px");
+        .style("top", (event.y + window.scrollY) + "px");
     };
 
     const mouseleave = function () {
@@ -87,6 +88,13 @@
       d3.select(this)
         .style("stroke", "#0072BC")
         .style("opacity", 1);
+    };
+
+    // Click event to select bubble
+    const handleClick = function (event, d) {
+      d3.selectAll("circle").style("fill", "#589BE5"); // Reset color of all bubbles
+      d3.select(this).style("fill", "orange"); // Highlight selected bubble
+      selected = d.city; // Save selected city
     };
 
     // Set bubble scale
@@ -102,18 +110,17 @@
       .attr("cx", d => projection([+d.lng, +d.lat])[0])
       .attr("cy", d => projection([+d.lng, +d.lat])[1])
       .attr("r", d => size(+d[selectedCrime]))
-      .style("fill", "#589BE5")
+      .style("fill", d => selected === d.city ? "orange" : "#589BE5") // Set color based on selection
       .attr("stroke", "#0072BC")
       .attr("stroke-width", 0.5)
       .attr("fill-opacity", .6)
       .on("mouseover", mouseover)
       .on("mousemove", mousemove)
       .on("mouseleave", mouseleave)
+      .on("click", handleClick) // Add click event
       .transition() // Add transition
       .duration(500) // Set transition duration in milliseconds
       .attr("r", d => size(+d[selectedCrime])); // Transition to new size;
-
-
   }
 
   function handleYearChange(event) {
