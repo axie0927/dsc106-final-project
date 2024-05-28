@@ -5,6 +5,7 @@
 <main>
   <h1>Crime Rates per Capita in the USA</h1>
   <Map />
+
 </main>
 
 <style>
