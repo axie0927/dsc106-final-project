@@ -3,8 +3,9 @@
 </script>
 
 <main>
-  <h1>Crimes in the USA</h1>
-  <p>For our visualizations, we have a map of the US showing the total number of the selected crimes that occurred during the selected year, with the circle sizes being proportional to the numbers. If you hover over each circle, it will show the exact number of crimes as well as the population of that specific city. Additionally, if you click on the bubbles, you will see a layered line graph that shows the number of crimes and the employment rate over the years 1975 to 2014.</p>
+  <h1>Number of Violent Crimes in the USA and Comparison with Employment Rate</h1>
+  <p>Select specific year or type of crime to see the number of crimes for specific cities in the US during the selected year. A more in depth visualization between number of crimes and unemployment rate can be seen below the map.</p>
+  <p>Hover over the circles below to see the number of crimes as well as the population of the city!</p>
   <Map />
 
 </main>

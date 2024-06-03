@@ -397,7 +397,9 @@
     </select>
   </div>
   <div id="map-container"></div>
+  <p>Clicking onto a bubble will show a line graph of number of crimes as well as unemployment rate bewteen the years 1975 and 2014.</p>
   <div id="line-plot-container"></div>
+  <p>Below is a heat map showing the overall correlation between number of crimes for the selected crime and unemployment rates for each city listed on the map above.</p>
   <div id="heatmap-container"></div>
 </div>
 
