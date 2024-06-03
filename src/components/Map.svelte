@@ -233,6 +233,7 @@
       .attr("y", -10)
       .attr("text-anchor", "middle")
       .style("font-size", "16px")
+      .style("text-decoration", "underline")
       .text(`Correlation between Unemployment and ${selectedCrime}`);
 
     const legend = svg.append("g")
@@ -396,6 +397,7 @@
       {/each}
     </select>
   </div>
+  <p>Hover over the circles below to see the number of crimes as well as the population of the city!</p>
   <div id="map-container"></div>
   <p>Clicking onto a bubble will show a line graph of number of crimes as well as unemployment rate bewteen the years 1975 and 2014.</p>
   <div id="line-plot-container"></div>
