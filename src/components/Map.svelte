@@ -21,6 +21,9 @@
   let crime;
   let corrData;
   let curCorr;
+  
+
+  let newZoom;
 
   onMount(async () => {
     const response = await fetch('us-states.json');
@@ -42,142 +45,184 @@
   });
 
   function updateMap() {
-    // Check if SVG exists, otherwise create it
-    let svg = d3.select('#map-container').select('svg');
-    if (svg.empty()) {
-      svg = d3.select('#map-container').append('svg')
-        .attr('width', width)
-        .attr('height', height);
-    }
-
-    // Clear previous map paths, bubbles, tooltips, and legends
-    svg.selectAll('path').remove();
-    svg.selectAll('circle').remove();
-    svg.selectAll('g.bubble').remove();
-    d3.select('body').selectAll('.tooltip').remove();
-    svg.selectAll('g.legend').remove();
-
-    // Draw map paths
-    svg.selectAll('path')
-      .data(geojson.features)
-      .enter()
-      .append('path')
-      .attr('d', path)
-      .attr('stroke', 'white')
-      .attr('fill', '#ddd'); // Set to none since we are not using heatmap colors here
-
-    const bubble = svg.append("g").attr("class", "bubble");
-
-    // Create a tooltip
-    const tooltip = d3.select('body')
-      .append('div')
-      .attr('class', 'tooltip')
-      .style('opacity', 0)
-      .style("background-color", "white")
-      .style("border", "solid")
-      .style("border-width", "2px")
-      .style("border-radius", "5px")
-      .style("padding", "5px")
-      .style("position", "absolute");
-
-    // Tooltip and mouse events
-    const mouseover = function (event, d) {
-      tooltip.style("opacity", 1);
-      if (selected !== d.city) {
-        d3.select(this)
-          .style("fill", "#589BE5")
-          .style("stroke", "#EF4A60")
-          .style("opacity", 1);
-      }
-    };
-
-    const mousemove = function (event, d) {
-      const f = d3.format(",");
-      tooltip.html("<div style='color: #0072BC'><b>" + d.city + `</b></div><div>Number of ${selectedCrime}: ${f(d[selectedCrimeIndex])}</div>`
-        + "<div>Population: " + d.population + "</div>")
-        .style("left", (event.x) + 20 + "px")
-        .style("top", (event.y + window.scrollY) + "px");
-    };
-
-    const mouseleave = function (event, d) {
-      tooltip.style("opacity", 0);
-      if (selected !== d.city) {
-        d3.select(this)
-          .style("fill", "#589BE5")
-          .style("stroke", "#0072BC")
-          .style("opacity", 1);
-      }
-    };
-
-    // Click event to select bubble
-    const handleClick = function (event, d) {
-      if (previouslySelectedBubble) {
-        previouslySelectedBubble.style("fill", "#589BE5"); // Reset the color of the previously selected bubble
-      }
-      d3.select(this).style("fill", "orange"); // Highlight selected bubble
-      selected = d.city; // Save selected city
-      previouslySelectedBubble = d3.select(this); // Save the reference to the currently selected bubble
-      createLinePlot();
-    };
-
-    // Set bubble scale
-    var valueScale = [0, 50000];
-    var legendValues = [2500, 5000, 10000];
-    if (selectedCrime === "Rapes") {
-      valueScale = [0, 5000]
-      legendValues = [400, 800, 1600];
-    } else if (selectedCrime === "Homicides") {
-      valueScale = [0, 2000]
-      legendValues = [100, 200, 400];
-    }
-    const size = d3.scaleSqrt()
-      .domain(valueScale)
-      .range([1, 50]);
-
-    // Draw bubbles
-    bubble.selectAll("circle")
-      .data(crimeData)
-      .join("circle")
-      .attr("cx", d => projection([+d.lng, +d.lat])[0])
-      .attr("cy", d => projection([+d.lng, +d.lat])[1])
-      .attr("r", d => size(+d[selectedCrimeIndex]))
-      .style("fill", d => selected === d.city ? "orange" : "#589BE5") // Set color based on selection
-      .attr("stroke", "#0072BC")
-      .attr("stroke-width", 0.5)
-      .attr("fill-opacity", .6)
-      .on("mouseover", mouseover)
-      .on("mousemove", mousemove)
-      .on("mouseleave", mouseleave)
-      .on("click", handleClick);
-
-    // Add Legend
-    const legendSize = legendValues.map(d => size(d));
-
-    const legend = svg.append("g")
-      .attr("class", "legend")
-      .attr("transform", "translate(50,50)");
-
-    legend.selectAll("circle")
-      .data(legendValues)
-      .enter()
-      .append("circle")
-      .attr("cx", 0)
-      .attr("cy", (d, i) => i * 50)
-      .attr("r", (d, i) => legendSize[i])
-      .style("fill", "#589BE5")
-      .style("opacity", 0.6);
-
-    legend.selectAll("text")
-      .data(legendValues)
-      .enter()
-      .append("text")
-      .attr("x", 40)
-      .attr("y", (d, i) => i * 50)
-      .attr("dy", "0.35em")
-      .text(d => `${Math.round(d)}  ${selectedCrime}`)
-      .style("font-size", "12px")
-      .style("fill", "#333");
+  // Check if SVG exists, otherwise create it
+  let svg = d3.select('#map-container').select('svg');
+  if (svg.empty()) {
+    svg = d3.select('#map-container').append('svg')
+      .attr('width', width)
+      .attr('height', height);
   }
+
+  // Clear previous map paths, bubbles, tooltips, and legends
+  svg.selectAll('path').remove();
+  svg.selectAll('circle').remove();
+  svg.selectAll('g.bubble').remove();
+  d3.select('body').selectAll('.tooltip').remove();
+  svg.selectAll('g.legend').remove();
+
+  // put bubbles and geomap into a group
+  let mapGroup = svg.select('g.map-content');
+  if (mapGroup.empty()) {
+    mapGroup = svg.append('g').attr('class', 'map-content');
+  }
+
+
+  // Draw map paths
+  mapGroup.selectAll('path')
+    .data(geojson.features)
+    .enter()
+    .append('path')
+    .attr('d', path)
+    .attr('stroke', 'white')
+    .attr('fill', '#ddd'); // Set to none since we are not using heatmap colors here
+
+  const bubble = mapGroup.append("g").attr("class", "bubble");
+
+  // Create a tooltip
+  const tooltip = d3.select('body')
+    .append('div')
+    .attr('class', 'tooltip')
+    .style('opacity', 0)
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+    .style("position", "absolute");
+
+  // Tooltip and mouse events
+  const mouseover = function (event, d) {
+    tooltip.style("opacity", 1);
+    if (selected !== d.city) {
+      d3.select(this)
+        .style("fill", "#589BE5")
+        .style("stroke", "#EF4A60")
+        .style("opacity", 1);
+    }
+  };
+
+  const mousemove = function (event, d) {
+    const f = d3.format(",");
+    tooltip.html("<div style='color: #0072BC'><b>" + d.city + `</b></div><div>Number of ${selectedCrime}: ${f(d[selectedCrimeIndex])}</div>`
+      + "<div>Population: " + d.population + "</div>")
+      .style("left", (event.x) + 20 + "px")
+      .style("top", (event.y + window.scrollY) + "px");
+  };
+
+  const mouseleave = function (event, d) {
+    tooltip.style("opacity", 0);
+    if (selected !== d.city) {
+      d3.select(this)
+        .style("fill", "#589BE5")
+        .style("stroke", "#0072BC")
+        .style("opacity", 1);
+    }
+  };
+
+  // Click event to select bubble
+  const handleClick = function (event, d) {
+    if (previouslySelectedBubble) {
+      previouslySelectedBubble.style("fill", "#589BE5"); // Reset the color of the previously selected bubble
+    }
+    d3.select(this).style("fill", "orange"); // Highlight selected bubble
+    selected = d.city; // Save selected city
+    previouslySelectedBubble = d3.select(this); // Save the reference to the currently selected bubble
+    createLinePlot();
+  };
+
+  // Set bubble scale
+  var valueScale = [0, 50000];
+  var legendValues = [2500, 5000, 10000];
+  if (selectedCrime === "Rapes") {
+    valueScale = [0, 5000]
+    legendValues = [400, 800, 1600];
+  } else if (selectedCrime === "Homicides") {
+    valueScale = [0, 2000]
+    legendValues = [100, 200, 400];
+  }
+  const size = d3.scaleSqrt()
+    .domain(valueScale)
+    .range([1, 50]);
+
+  // Draw bubbles
+  bubble.selectAll("circle")
+    .data(crimeData)
+    .join("circle")
+    .attr("cx", d => projection([+d.lng, +d.lat])[0])
+    .attr("cy", d => projection([+d.lng, +d.lat])[1])
+    .attr("r", d => size(+d[selectedCrimeIndex]))
+    .style("fill", d => selected === d.city ? "orange" : "#589BE5") // Set color based on selection
+    .attr("stroke", "black")
+    .attr("stroke-width", 0.8)
+    .attr("fill-opacity", .6)
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave)
+    .on("click", handleClick)
+
+  // Add Legend
+  const legendSize = legendValues.map(d => size(d));
+
+  const legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", "translate(50,50)");
+
+  legend.selectAll("circle")
+    .data(legendValues)
+    .enter()
+    .append("circle")
+    .attr("cx", 0)
+    .attr("cy", (d, i) => i * 50)
+    .attr("r", (d, i) => legendSize[i])
+    .style("fill", "#589BE5")
+    .style("opacity", 0.6);
+
+  legend.selectAll("text")
+    .data(legendValues)
+    .enter()
+    .append("text")
+    .attr("x", 40)
+    .attr("y", (d, i) => i * 50)
+    .attr("dy", "0.35em")
+    .text(d => `${Math.round(d)}  ${selectedCrime}`)
+    .style("font-size", "12px")
+    .style("fill", "#333");
+
+  svg.call(d3.drag()
+    .on("start", dragStart)
+    .on("drag", drag)
+    .on("end", dragEnd)
+  );
+  let prevX = 0;
+  let prevY = 0;
+  let zoomValue = 1;
+  let currentX = 0;
+  let currentY = 0;
+  function dragStart(event) {
+    prevX = event.x;
+    prevY = event.y;
+    mapGroup.attr('cursor', 'grabbing');
+  } 
+
+  function drag(event) {
+    const dx = event.x - prevX;
+    const dy = event.y - prevY;
+    zoomValue = newZoom; 
+    currentX += dx;
+    currentY += dy;
+
+    mapGroup.attr('transform', `translate(${currentX},${currentY}) scale(${zoomValue})`);
+
+    prevX = event.x;
+    prevY = event.y;
+  }
+
+  function dragEnd(event) {
+    mapGroup.attr('cursor', 'grab');
+
+  }
+}
+
 
   function createHeatmap() {
     const heatmapWidth = 600;
@@ -273,6 +318,13 @@
     curCorr = corrData[selectedCrimeIndex]
     updateMap();
     createHeatmap()
+  }
+  function handleZoomChange(event) {
+    const zoomValue = event.target.value / 50; 
+    const svg = d3.select('#map-container').select('svg');
+    const mapContent = svg.select('g.map-content');
+    mapContent.attr('transform', `scale(${zoomValue})`);
+    newZoom = zoomValue;
   }
 
   function createLinePlot() {
@@ -380,21 +432,33 @@
       .style("font-size", "12px")
       .attr("alignment-baseline", "middle");
   }
+  
 </script>
 
 <div id="container">
-  <div id="controls">
-    <select bind:value={selectedYear} on:change={handleYearChange}>
-      {#each years as year}
-        <option value={year}>{year}</option>
-      {/each}
-    </select>
+  <div id="controls" class="horizontal-controls">
+    <div class="control">
+      <label for="year-selector">Year:</label>
+      <select id="year-selector" bind:value={selectedYear} on:change={handleYearChange}>
+        {#each years as year}
+          <option value={year}>{year}</option>
+        {/each}
+      </select>
+    </div>
 
-    <select bind:value={selectedCrime} on:change={handleCrimeChange}>
-      {#each violent_crimes as crime}
-        <option value={crime}>{crime}</option>
-      {/each}
-    </select>
+    <div class="control">
+      <label for="crime-selector">Category:</label>
+      <select id="crime-selector" bind:value={selectedCrime} on:change={handleCrimeChange}>
+        {#each violent_crimes as crime}
+          <option value={crime}>{crime}</option>
+        {/each}
+      </select>
+    </div>
+
+    <div class="control">
+      <label for="zoom-slider">Zoom:</label>
+      <input type="range" id="zoom-slider" min="1" max="100" value="50" on:input={handleZoomChange} />
+    </div>
   </div>
   <div id="map-container"></div>
   <p>Clicking onto a bubble will show a line graph of number of crimes as well as unemployment rate bewteen the years 1975 and 2014.</p>
@@ -409,9 +473,25 @@
     flex-direction: column;
     align-items: center;
   }
-  #controls {
+  
+  .horizontal-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+
+  .control {
+    flex: 1;
     margin-bottom: 10px;
   }
+
+  .control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
   #map-container, #line-plot-container, #heatmap-container {
     margin-top: 20px;
   }
