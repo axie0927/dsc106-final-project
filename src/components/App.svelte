@@ -15,6 +15,7 @@
   html, body {
     height: 100%;
     margin: 0;
+    font-family: Arial, sans-serif;
   }
   main {
     display: flex;
@@ -26,16 +27,14 @@
     padding: 1em;
     max-width: 800px;
     margin: 0 auto;
-  }
+}
   h1 {
     color: #333;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     padding: 0.5em;
     border-bottom: 2px solid #333;
     margin-bottom: 1em;
-  }
-  p {
-    margin: 1em 0;
+    font-family: Arial, sans-serif;
   }
   .map-container {
     border: 2px solid black;

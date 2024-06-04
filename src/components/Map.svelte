@@ -224,88 +224,119 @@
 }
 
 
-  function createHeatmap() {
-    const heatmapWidth = 600;
-    const heatmapHeight = 400;
-    const margin = { top: 30, right: 20, bottom: 40, left: 40 };
-    const cellSize = 50;
-    d3.select('#heatmap-container').selectAll('svg').remove();
-    const svg = d3.select("#heatmap-container")
-      .append("svg")
-      .attr("width", heatmapWidth + margin.left + margin.right)
-      .attr("height", heatmapHeight + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", `translate(${margin.left},${margin.top})`);
+function createHeatmap() {
+  const heatmapWidth = 600;
+  const heatmapHeight = 400;
+  const margin = { top: 30, right: 20, bottom: 40, left: 40 };
+  const cellSize = 50;
+  d3.select('#heatmap-container').selectAll('svg').remove();
+  const svg = d3.select("#heatmap-container")
+    .append("svg")
+    .attr("width", heatmapWidth + margin.left + margin.right)
+    .attr("height", heatmapHeight + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
 
-    const cities = Object.keys(curCorr);
-    const numCols = Math.ceil(Math.sqrt(cities.length));
-    const numRows = Math.ceil(cities.length / numCols);
+  const cities = Object.keys(curCorr);
+  const numCols = Math.ceil(Math.sqrt(cities.length));
+  const numRows = Math.ceil(cities.length / numCols);
 
-    const colorScale = d3.scaleSequential(d3.interpolateRdYlGn)
-      .domain([-1, 1]);
+  const colorScale = d3.scaleSequential(d3.interpolateRdYlGn)
+    .domain([-1, 1]);
 
-    const xScale = d3.scaleBand()
-      .range([0, heatmapWidth])
-      .domain(d3.range(numCols));
+  const xScale = d3.scaleBand()
+    .range([0, heatmapWidth])
+    .domain(d3.range(numCols));
 
-    const yScale = d3.scaleBand()
-      .range([0, heatmapHeight])
-      .domain(d3.range(numRows));
+  const yScale = d3.scaleBand()
+    .range([0, heatmapHeight])
+    .domain(d3.range(numRows));
 
-    svg.selectAll("rect")
-      .data(cities)
-      .enter()
-      .append("rect")
-      .attr("x", (d, i) => xScale(i % numCols))
-      .attr("y", (d, i) => yScale(Math.floor(i / numCols)))
-      .attr("width", cellSize + 30)
-      .attr("height", cellSize)
-      .style("fill", d => colorScale(curCorr[d]));
+  // Create a tooltip
+  const tooltip = d3.select('body')
+    .append('div')
+    .attr('class', 'tooltip')
+    .style('opacity', 0)
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "2px")
+    .style("border-radius", "5px")
+    .style("padding", "5px")
+    .style("position", "absolute");
 
-    svg.selectAll("text")
-      .data(cities)
-      .enter()
-      .append("text")
-      .attr("x", (d, i) => xScale(i % numCols) + cellSize / 2)
-      .attr("y", (d, i) => yScale(Math.floor(i / numCols)) + cellSize / 2)
-      .attr("dy", "2em")
-      .attr("text-anchor", "middle")
-      .style("font-size", "8px")
-      .text(d => d);
+  // Tooltip and mouse events
+  const mouseover = function (event, d) {
+    tooltip.style("opacity", 1) ;
+  };
 
-    svg.append("text")
-      .attr("x", heatmapWidth / 2)
-      .attr("y", -10)
-      .attr("text-anchor", "middle")
-      .style("font-size", "16px")
-      .style("text-decoration", "underline")
-      .text(`Correlation between Unemployment and ${selectedCrime}`);
+  const mousemove = function (event, d) {
+    tooltip.html("<div style='color: #0072BC'><b>" + d + `</b></div><div>Correlation: ${curCorr[d]}</div>`)
+      .style("left", (event.x) + 20 + "px")
+      .style("top", (event.y + window.scrollY) + "px");
+  };
 
-    const legend = svg.append("g")
-      .attr("class", "legend")
-      .attr("transform", `translate(0,${heatmapHeight + 10})`);
+  const mouseleave = function (event, d) {
+    tooltip.style("opacity", 0);
+  };
 
-    const legendScale = d3.scaleLinear()
-      .range([0, heatmapWidth])
-      .domain([-1, 1]);
+  svg.selectAll("rect")
+    .data(cities)
+    .enter()
+    .append("rect")
+    .attr("x", (d, i) => xScale(i % numCols))
+    .attr("y", (d, i) => yScale(Math.floor(i / numCols)))
+    .attr("width", cellSize + 30)
+    .attr("height", cellSize)
+    .style("fill", d => colorScale(curCorr[d]))
+    .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseleave", mouseleave);
 
-    const legendAxis = d3.axisBottom(legendScale)
-      .ticks(5);
+  svg.selectAll("text")
+    .data(cities)
+    .enter()
+    .append("text")
+    .attr("x", (d, i) => xScale(i % numCols) + cellSize / 2)
+    .attr("y", (d, i) => yScale(Math.floor(i / numCols)) + cellSize / 2)
+    .attr("dy", "2em")
+    .attr("text-anchor", "middle")
+    .style("font-size", "8px")
+    .text(d => d);
 
-    legend.selectAll("rect")
-      .data(d3.range(-1, 1.01, 0.01))
-      .enter()
-      .append("rect")
-      .attr("x", d => legendScale(d))
-      .attr("y", 0)
-      .attr("width", heatmapWidth / 200)
-      .attr("height", 10)
-      .style("fill", d => colorScale(d));
+  svg.append("text")
+    .attr("x", heatmapWidth / 2)
+    .attr("y", -10)
+    .attr("text-anchor", "middle")
+    .style("font-size", "16px")
+    .style("text-decoration", "underline")
+    .text(`Correlation between Unemployment and ${selectedCrime}`);
 
-    legend.append("g")
-      .attr("transform", `translate(0,10)`)
-      .call(legendAxis);
-  }
+  const legend = svg.append("g")
+    .attr("class", "legend")
+    .attr("transform", `translate(0,${heatmapHeight + 10})`);
+
+  const legendScale = d3.scaleLinear()
+    .range([0, heatmapWidth])
+    .domain([-1, 1]);
+
+  const legendAxis = d3.axisBottom(legendScale)
+    .ticks(5);
+
+  legend.selectAll("rect")
+    .data(d3.range(-1, 1.01, 0.01))
+    .enter()
+    .append("rect")
+    .attr("x", d => legendScale(d))
+    .attr("y", 0)
+    .attr("width", heatmapWidth / 200)
+    .attr("height", 10)
+    .style("fill", d => colorScale(d));
+
+  legend.append("g")
+    .attr("transform", `translate(0,10)`)
+    .call(legendAxis);
+}
+
 
   function handleYearChange(event) {
     selectedYear = event.target.value;
@@ -432,10 +463,11 @@
       .text("Unemployment Rate")
       .style("font-size", "12px")
       .attr("alignment-baseline", "middle");
+
   }
   
 </script>
-
+<h2>Explore the stats</h2>
 <div id="container">
   <div id="controls" class="horizontal-controls">
     <div class="control">
@@ -464,8 +496,14 @@
   <p>Hover over the circles below to see the number of crimes as well as the population of the city!</p>
   <div id="map-container"></div>
   <p>Clicking onto a bubble will show a line graph of number of crimes as well as unemployment rate bewteen the years 1975 and 2014.</p>
+  <h2>Unemployment</h2>
+  <p>Let us see how {selected}'s {selectedCrime} has changed over time with respect to unemployment rate of the United States.</p>
   <div id="line-plot-container"></div>
-  <p>Below is a heat map showing the overall correlation between number of crimes for the selected crime and unemployment rates for each city listed on the map above.</p>
+  <h2>Comparing</h2>
+  <p>Now the question is, how interrelated are unemployment and {selectedCrime}? In order to answer this we must analyze the correlation coeffecient 
+    between unemplyoment and {selectedCrime}. But as we can see in the graph there appears to be some sort of delay between when 
+    unemployment changes and violent crime changes. In order to solve this problem we will instead analyze the correlation between the two 
+    variables while shifting all of crime data by 4 years. Now lets see how this compares to other cities</p>
   <div id="heatmap-container"></div>
 </div>
 
@@ -496,5 +534,16 @@
 
   #map-container, #line-plot-container, #heatmap-container {
     margin-top: 20px;
+  }
+
+  p {
+     font-family: Arial, sans-serif;
+     text-align: left; 
+     margin-left: 50px;
+  }
+
+  h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
   }
 </style>
