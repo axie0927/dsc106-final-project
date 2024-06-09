@@ -5,11 +5,11 @@
 <main>
   <h1>Number of Violent Crimes in the USA and Comparison with Employment Rate</h1>
   <h2>By Manat Rao, Ammie Xie, Haotian Zhu</h2>
+  <p>Has crime rate improved in recent years compared to the 1970s and how does this reflect on the unemployment rate in the US? We can take a look at data collected from multiple police agencies across the US using the map below which may give us deeper insight into our question.</p>
   <h4>Select specific year or type of crime to see the number of crimes for specific cities in the US during the selected year. A more in depth visualization between number of crimes and unemployment rate can be seen below the map.</h4>
   <div class="map-container">
     <Map />
   </div>
-
 </main>
 
 <style>

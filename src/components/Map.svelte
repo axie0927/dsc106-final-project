@@ -16,7 +16,7 @@
   const linePlotWidth = 700;
   const linePlotHeight = 600;
   let projection;
-  let selected = null;
+  let selected = "each city";
   let previouslySelectedBubble = null;  
   let crime;
   let corrData;
