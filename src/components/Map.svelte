@@ -21,6 +21,7 @@
   let crime;
   let corrData;
   let curCorr;
+  let curCorrCity = null;
   
 
   let newZoom;
@@ -126,7 +127,8 @@
     }
     d3.select(this).style("fill", "orange"); // Highlight selected bubble
     selected = d.city; // Save selected city
-    previouslySelectedBubble = d3.select(this); // Save the reference to the currently selected bubble
+    previouslySelectedBubble = d3.select(this); // Save the reference to the currently selected bubble 
+    curCorrCity = curCorr[selected].toFixed(3)
     createLinePlot();
   };
 
@@ -270,7 +272,7 @@ function createHeatmap() {
   };
 
   const mousemove = function (event, d) {
-    tooltip.html("<div style='color: #0072BC'><b>" + d + `</b></div><div>Correlation: ${curCorr[d]}</div>`)
+    tooltip.html("<div style='color: #0072BC'><b>" + d + `</b></div><div>Correlation: ${curCorr[d].toFixed(3)}</div>`)
       .style("left", (event.x) + 20 + "px")
       .style("top", (event.y + window.scrollY) + "px");
   };
@@ -335,6 +337,8 @@ function createHeatmap() {
   legend.append("g")
     .attr("transform", `translate(0,10)`)
     .call(legendAxis);
+  
+  
 }
 
 
@@ -503,8 +507,11 @@ function createHeatmap() {
   <p>Now the question is, how interrelated are unemployment and {selectedCrime}? In order to answer this we must analyze the correlation coeffecient 
     between unemplyoment and {selectedCrime}. But as we can see in the graph there appears to be some sort of delay between when 
     unemployment changes and violent crime changes. In order to solve this problem we will instead analyze the correlation between the two 
-    variables while shifting all of crime data by 4 years. Now lets see how this compares to other cities</p>
+    variables while shifting all of crime data by 4 years. The correlation coeffecient for {selected} is {curCorrCity}, now lets see how this compares to other cities.</p>
   <div id="heatmap-container"></div>
+  <p> As we can see there generally appears to be some sort of correlation in bigger cities, especially if we selected robberies or rape, but not as much in the other major violent crimes.
+    With further analysis we could figure out just how strong this correlation is especially with those two categories.
+  </p>
 </div>
 
 <style>
